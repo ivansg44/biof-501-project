@@ -1,0 +1,12 @@
+name: biof-501-project
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python =3.10.0
+  - ipython
+  - snakemake-minimal =6.10.0
+  - emboss =6.6.0
+  - biopython =1.79
+  - matplotlib-base =3.4.3

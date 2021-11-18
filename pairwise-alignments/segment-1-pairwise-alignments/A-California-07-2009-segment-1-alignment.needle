@@ -1,0 +1,222 @@
+########################################
+# Program: needle
+# Rundate: Wed 17 Nov 2021 16:55:49
+# Commandline: needle
+#    [-asequence] reference/segment-1-reference/segment-1-reference.fasta
+#    [-bsequence] samples/segment-1-samples/A-California-07-2009-segment-1.fasta
+#    -sid2 A-California-07-2009
+#    -auto
+#    -outfile pairwise-alignments/segment-1-pairwise-alignments/A-California-07-2009-segment-1-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-1-pairwise-alignments/A-California-07-2009-segment-1-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-California-07-2009
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2316
+# Identity:    1993/2316 (86.1%)
+# Similarity:  1993/2316 (86.1%)
+# Gaps:          36/2316 ( 1.6%)
+# Score: 8817.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------ATGGAAAGAATAAAAGAACTAAGGGATCTAATGTC     35
+                                    |||||.||||||||||||||.||.|||||||||||
+A-California-      1 TCAAATATATTCAATATGGAGAGAATAAAAGAACTGAGAGATCTAATGTC     50
+
+EMBOSS_001        36 GCAGTCTCGCACTCGCGAGATACTCACAAAAACCACCGTGGACCATATGG     85
+                     ||||||.||||||||||||||||||||.||.|||||.|||||||||||||
+A-California-     51 GCAGTCCCGCACTCGCGAGATACTCACTAAGACCACTGTGGACCATATGG    100
+
+EMBOSS_001        86 CCATAATCAAGAAGTACACATCAGGAAGACAGGAGAAGAACCCCGCACTT    135
+                     ||||||||||.|||||||||||||||||.||.|||||||||||||||||.
+A-California-    101 CCATAATCAAAAAGTACACATCAGGAAGGCAAGAGAAGAACCCCGCACTC    150
+
+EMBOSS_001       136 AGGATGAAATGGATGATGGCAATGAAATATCCAATTACAGCAGACAAGAG    185
+                     ||.|||||.||||||||||||||||.|||.||||||||||||||||||||
+A-California-    151 AGAATGAAGTGGATGATGGCAATGAGATACCCAATTACAGCAGACAAGAG    200
+
+EMBOSS_001       186 GATAATGGAAATGATTCCTGAGAGAAATGAGCAAGGACAAACTCTATGGA    235
+                     .||||||||.||||||||.|||||.|||||.|||||||||||.||.||||
+A-California-    201 AATAATGGACATGATTCCAGAGAGGAATGAACAAGGACAAACCCTCTGGA    250
+
+EMBOSS_001       236 GTAAAACGAACGATGCCGGATCAGACCGAGTGATGGTATCACCTCTGGCT    285
+                     |.|||||.||||||||.||||||||||||||||||||||||||||||||.
+A-California-    251 GCAAAACAAACGATGCTGGATCAGACCGAGTGATGGTATCACCTCTGGCC    300
+
+EMBOSS_001       286 GTGACATGGTGGAATAGGAATGGACCAACGACAAGTGCAGTTCACTATCC    335
+                     ||.||||||||||||||||||||.|||||.||||||.|||||||.||.||
+A-California-    301 GTAACATGGTGGAATAGGAATGGCCCAACAACAAGTACAGTTCATTACCC    350
+
+EMBOSS_001       336 AAAAATCTACAAAACTTATTTTGAAAAAGTCGAAAGGTTAAAACATGGAA    385
+                     .||..|.||.|||||||||||.|||||.|||||||||||.||||||||.|
+A-California-    351 TAAGGTATATAAAACTTATTTCGAAAAGGTCGAAAGGTTGAAACATGGTA    400
+
+EMBOSS_001       386 CCTTTGGCCCTGTCCATTTCAGAAACCAAGTCAAAATACGTCGAAGAGTT    435
+                     ||||.|||||||||||.||||||||.|||||.||||||.|..|.||||||
+A-California-    401 CCTTCGGCCCTGTCCACTTCAGAAATCAAGTTAAAATAAGGAGGAGAGTT    450
+
+EMBOSS_001       436 GACATAAATCCTGGTCATGCAGATCTCAGTGCCAAAGAGGCACAGGATGT    485
+                     ||.|.|||.|||||.||||||||||||||||||||.||||||||||||||
+A-California-    451 GATACAAACCCTGGCCATGCAGATCTCAGTGCCAAGGAGGCACAGGATGT    500
+
+EMBOSS_001       486 AATCATGGAAGTTGTTTTCCCAAACGAAGTGGGAGCCAGGATACTAACAT    535
+                     .||.||||||||||||||||||||.||||||||.||.||.|||||.||||
+A-California-    501 GATTATGGAAGTTGTTTTCCCAAATGAAGTGGGGGCAAGAATACTGACAT    550
+
+EMBOSS_001       536 CGGAATCGCAACTGACAATAACCAAAGAAAAGAAAGAAGAACTCCAAGAT    585
+                     |.||.||.||.|||.|||||||.|||||.|||||||||||.|||||.|||
+A-California-    551 CAGAGTCACAGCTGGCAATAACAAAAGAGAAGAAAGAAGAGCTCCAGGAT    600
+
+EMBOSS_001       586 TGTAAAATTTCTCCTTTAATGGTGGCATACATGTTGGAGAGAGAACTGGT    635
+                     |||||||||.||||.||.||||||||.||||||.|.||.||||||.||||
+A-California-    601 TGTAAAATTGCTCCCTTGATGGTGGCGTACATGCTAGAAAGAGAATTGGT    650
+
+EMBOSS_001       636 CCGAAAAACAAGATTCCTCCCAGTGGCTGGTGGGACAAGCAGTGTGTATA    685
+                     |||.||||||||.||.||||||||.||.||.||.|||.|||||||.||||
+A-California-    651 CCGTAAAACAAGGTTTCTCCCAGTAGCCGGCGGAACAGGCAGTGTTTATA    700
+
+EMBOSS_001       686 TTGAAGTGTTGCATTTGACTCAAGGAACATGCTGGGAACAGATGTACACT    735
+                     |||||||||||||.||.||.|||||.||.||||||||.||||||||||||
+A-California-    701 TTGAAGTGTTGCACTTAACCCAAGGGACGTGCTGGGAGCAGATGTACACT    750
+
+EMBOSS_001       736 CCAGGAGGGGAAGTGAGGAATGATGATGTTGATCAAAGCTTAATTATTGC    785
+                     ||||||||.||||||||.||||||||||||||.|||||.||.|||||.||
+A-California-    751 CCAGGAGGAGAAGTGAGAAATGATGATGTTGACCAAAGTTTGATTATCGC    800
+
+EMBOSS_001       786 TGCTAGGAACATAGTGAGAAGAGCGACAGTGTCAGCAGATCCACTAGCAT    835
+                     ||||||.||||||||.||||||||..|||||||||||||.|||.||||||
+A-California-    801 TGCTAGAAACATAGTAAGAAGAGCAGCAGTGTCAGCAGACCCATTAGCAT    850
+
+EMBOSS_001       836 CTCTGTTGGAAATGTGCCACAGCACACAGATTGGTGGAATAAGGATGGTA    885
+                     ||||.|||||||||||||||||||||||||||||.|||.||||||||||.
+A-California-    851 CTCTCTTGGAAATGTGCCACAGCACACAGATTGGAGGAGTAAGGATGGTG    900
+
+EMBOSS_001       886 GACATCCTTAGGCAGAACCCGACAGAAGAGCAAGCCGTGGATATATGCAA    935
+                     |||||||||||.|||||.||.||.||.||.||||||||.||.||||||||
+A-California-    901 GACATCCTTAGACAGAATCCAACTGAGGAACAAGCCGTAGACATATGCAA    950
+
+EMBOSS_001       936 GGCAGCAATGGGCCTGAGAATTAGCTCATCCTTTAGCTTTGGCGGATTCA    985
+                     |||||||||.||..||||.|||||||||||.||.||.|||||.||.||||
+A-California-    951 GGCAGCAATAGGGTTGAGGATTAGCTCATCTTTCAGTTTTGGTGGGTTCA   1000
+
+EMBOSS_001       986 CATTTAAGAGGACAAGTGGCTCATCAGTCAAGAGGGAGGAAGAAGTGCTT   1035
+                     |.||.||.||||||||.||.|||||||||||||..||.|||||||||||.
+A-California-   1001 CTTTCAAAAGGACAAGCGGATCATCAGTCAAGAAAGAAGAAGAAGTGCTA   1050
+
+EMBOSS_001      1036 ACAGGCAATCTTCAAACATTGAAGATAAGAGTGCATGAGGGATATGAAGA   1085
+                     ||.|||||.||.||||||.||||.||||||||.|||||.||.||||||||
+A-California-   1051 ACGGGCAACCTCCAAACACTGAAAATAAGAGTACATGAAGGGTATGAAGA   1100
+
+EMBOSS_001      1086 GTTCACAATGGTTGGGAGAAGAGCAACAGCTATACTCAGAAAAGCGACCA   1135
+                     .||||||||||||||||||||||||||||||||.||||||||.||.||||
+A-California-   1101 ATTCACAATGGTTGGGAGAAGAGCAACAGCTATTCTCAGAAAGGCAACCA   1150
+
+EMBOSS_001      1136 GGAGATTGATTCAGCTGATAGTGAGTGGGAGAGACGAACAGTCGATTGCC   1185
+                     ||||||||||.|||.|||||||.||.|||||||||||.|||||.|||||.
+A-California-   1151 GGAGATTGATCCAGTTGATAGTAAGCGGGAGAGACGAGCAGTCAATTGCT   1200
+
+EMBOSS_001      1186 GAGGCAATAATTGTGGCCATGGTATTTTCACAAGAGGATTGTATGATAAA   1235
+                     ||||||||||||||||||||||||||.|||||.||||||||.|||||.||
+A-California-   1201 GAGGCAATAATTGTGGCCATGGTATTCTCACAGGAGGATTGCATGATCAA   1250
+
+EMBOSS_001      1236 GGCAGTTAGGGGTGATCTGAATTTCGTTAATAGGGCGAATCAGCGATTGA   1285
+                     ||||||||||||.||||||||.||.||.||||||||.||.||||||.|||
+A-California-   1251 GGCAGTTAGGGGCGATCTGAACTTTGTCAATAGGGCAAACCAGCGACTGA   1300
+
+EMBOSS_001      1286 ATCCTATGCATCAACTTTTGAGGCATTTTCAAAAGGATGCGAAAGTGCTT   1335
+                     |.||.|||||.|||||.|||||||||||.|||||.|||||.|||||||||
+A-California-   1301 ACCCCATGCACCAACTCTTGAGGCATTTCCAAAAAGATGCAAAAGTGCTT   1350
+
+EMBOSS_001      1336 TTTCAAAATTGGGGAATTGAACCCATCGACAATGTGATGGGAATGATTGG   1385
+                     ||.||.||.||||||||||||.|||||||||||||||||||||||||.||
+A-California-   1351 TTCCAGAACTGGGGAATTGAATCCATCGACAATGTGATGGGAATGATCGG   1400
+
+EMBOSS_001      1386 GATACTGCCCGACATGACTCCAAGTACTGAGATGTCAATGAGAGGAGTGA   1435
+                     .|||||||||||||||||.|||||.||.||||||||..|||||||..|.|
+A-California-   1401 AATACTGCCCGACATGACCCCAAGCACGGAGATGTCGCTGAGAGGGATAA   1450
+
+EMBOSS_001      1436 GAGTCAGCAAAATGGGAGTAGATGAGTACTCCAGCACAGAGAGGGTGGTG   1485
+                     |||||||||||||||||||||||||.|||||||||||.|||||.|||||.
+A-California-   1451 GAGTCAGCAAAATGGGAGTAGATGAATACTCCAGCACGGAGAGAGTGGTA   1500
+
+EMBOSS_001      1486 GTGAGCATTGACCGCTTTTTAAGAGTCCGGGACCAACGAGGAAACGTACT   1535
+                     |||||.||||||||.||||||||.||..|.||.|||.||||.||||||||
+A-California-   1501 GTGAGTATTGACCGATTTTTAAGGGTTAGAGATCAAAGAGGGAACGTACT   1550
+
+EMBOSS_001      1536 ACTGTCTCCTGAGGAGGTCAGCGAAACACAGGGAACAGAGAAATTGACGA   1585
+                     |.|||||||.||.||.|||||.|||||.||.|||||.|||||.|||||.|
+A-California-   1551 ATTGTCTCCCGAAGAAGTCAGTGAAACGCAAGGAACTGAGAAGTTGACAA   1600
+
+EMBOSS_001      1586 TAACTTATTCATCGTCAATGATGTGGGAGGTTAATGGCCCTGAATCAGTG   1635
+                     ||||||||||.||.|||||||||||||||.|.|||||||||||.||||||
+A-California-   1601 TAACTTATTCGTCATCAATGATGTGGGAGATCAATGGCCCTGAGTCAGTG   1650
+
+EMBOSS_001      1636 TTGGTCAACACCTATCAGTGGATCATCAGAAACTGGGAAACTGTTAAAAT   1685
+                     .|.||||||||.|||||.|||||.|||||.||||||||||.|||.|||||
+A-California-   1651 CTAGTCAACACTTATCAATGGATAATCAGGAACTGGGAAATTGTGAAAAT   1700
+
+EMBOSS_001      1686 TCAGTGGTCACAGAATCCTACAATGCTATACAATAAAATGGAATTTGAGC   1735
+                     |||.||||||||..||||.||||||||||||||.||||||||||||||.|
+A-California-   1701 TCAATGGTCACAAGATCCCACAATGCTATACAACAAAATGGAATTTGAAC   1750
+
+EMBOSS_001      1736 CATTTCAGTCTTTAGTTCCTAAGGCCGCTAGAGGTCAATACAGTGGGTTT   1785
+                     |||||||||||.|.||.||||||||..|.|||.|.|..||||||||.||.
+A-California-   1751 CATTTCAGTCTCTTGTCCCTAAGGCAACCAGAAGCCGGTACAGTGGATTC   1800
+
+EMBOSS_001      1786 GTGAGAACTCTGTTCCAGCAAATGAGGGATGTGCTTGGGACATTTGACAC   1835
+                     ||.||.||.|||||||||||||||.|||||||||||||||||||||||||
+A-California-   1801 GTAAGGACACTGTTCCAGCAAATGCGGGATGTGCTTGGGACATTTGACAC   1850
+
+EMBOSS_001      1836 CGTTCAGATAATAAAACTTCTTCCCTTTGCAGCCGCTCCACCAAAGCAAA   1885
+                     .||.||.||||||||||||||.||||||||.||.||.||||||.|.||.|
+A-California-   1851 TGTCCAAATAATAAAACTTCTCCCCTTTGCTGCTGCCCCACCAGAACAGA   1900
+
+EMBOSS_001      1886 GTAGAATGCAGTTCTCCTCTCTGACTGTGAATGTGAGAGGATCAGGAATG   1935
+                     ||||.|||||.||.|||||..|||||||||||||||||||||||||..||
+A-California-   1901 GTAGGATGCAATTTTCCTCATTGACTGTGAATGTGAGAGGATCAGGGTTG   1950
+
+EMBOSS_001      1936 AGAATACTTGTAAGGGGCAATTCTCCCGTATTCAACTACAACAAGGCCAC   1985
+                     ||.|||||.|||||.|||||||||||.||||||||.|||||||||||.||
+A-California-   1951 AGGATACTGGTAAGAGGCAATTCTCCAGTATTCAATTACAACAAGGCAAC   2000
+
+EMBOSS_001      1986 TAAGAGACTCACAGTTCTCGGAAAGGATGCAGGTGCTTTAACTGAAGACC   2035
+                     .||..||||.||||||||.|||||||||||||||||.||.||||||||.|
+A-California-   2001 CAAACGACTTACAGTTCTTGGAAAGGATGCAGGTGCATTGACTGAAGATC   2050
+
+EMBOSS_001      2036 CAGATGAAGGCACAGCTGGAGTGGAGTCTGCTGTTCTGAGAGGATTCCTC   2085
+                     ||||||||||||||.||||.||||||||||||||.|||||||||||.|||
+A-California-   2051 CAGATGAAGGCACATCTGGGGTGGAGTCTGCTGTCCTGAGAGGATTTCTC   2100
+
+EMBOSS_001      2086 ATTCTGGGCAAAGAAGACAGGAGATATGGGCCAGCATTAAGCATCAATGA   2135
+                     |||.|||||||||||||||.|||||||||.||||||||||||||||||||
+A-California-   2101 ATTTTGGGCAAAGAAGACAAGAGATATGGCCCAGCATTAAGCATCAATGA   2150
+
+EMBOSS_001      2136 ACTGAGCAATCTTGCGAAAGGGGAGAAGGCTAATGTGCTAATTGGGCAAG   2185
+                     |||||||||||||||.|||||.||||||||||||||||||||||||||||
+A-California-   2151 ACTGAGCAATCTTGCAAAAGGAGAGAAGGCTAATGTGCTAATTGGGCAAG   2200
+
+EMBOSS_001      2186 GAGACGTGGTGTTGGTAATGAAACGGAAACGGGACTCTAGCATACTTACT   2235
+                     |.|||||.|||||||||||||||||.||||||||||||||||||||||||
+A-California-   2201 GGGACGTAGTGTTGGTAATGAAACGAAAACGGGACTCTAGCATACTTACT   2250
+
+EMBOSS_001      2236 GACAGCCAGACAGCGACCAAAAGAATTCGGATGGCCATCAATTAG-----   2280
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+A-California-   2251 GACAGCCAGACAGCGACCAAAAGAATTCGGATGGCCATCAATTAGTGTCG   2300
+
+EMBOSS_001      2280 ----------------   2280
+                                     
+A-California-   2301 AATTGTTTAAAAACGA   2316
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Wed 17 Nov 2021 16:55:48
+# Commandline: needle
+#    [-asequence] reference/segment-8-reference/segment-8-reference.fasta
+#    [-bsequence] samples/segment-8-samples/A-USSR-92-1977-segment-8.fasta
+#    -sid2 A-USSR-92-1977
+#    -auto
+#    -outfile pairwise-alignments/segment-8-pairwise-alignments/A-USSR-92-1977-segment-8-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-8-pairwise-alignments/A-USSR-92-1977-segment-8-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-USSR-92-1977
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 854
+# Identity:     799/854 (93.6%)
+# Similarity:   799/854 (93.6%)
+# Gaps:          16/854 ( 1.9%)
+# Score: 3839.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------ATGGATTCCAACACTGTGTCAAGCTTTCAGGTAGACT     37
+                                  ||||||.||||||||||||||||||||||||||||.|
+A-USSR-92-197      1 TGGCAAAGACATAATGGATCCCAACACTGTGTCAAGCTTTCAGGTAGATT     50
+
+EMBOSS_001        38 GCTTTCTTTGGCATGTCCGCAAACGGTTTGCAGACCAAGAACTGGGTGAT     87
+                     ||||.|||||||||||||||||||...||||||||||||||||.||||||
+A-USSR-92-197     51 GCTTCCTTTGGCATGTCCGCAAACAAGTTGCAGACCAAGAACTAGGTGAT    100
+
+EMBOSS_001        88 GCCCCATTCCTTGATCGGCTTCGCCGAGATCAGAAGTCCCTAAGAGGAAG    137
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+A-USSR-92-197    101 GCCCCATTCCTTGATCGGCTTCGCCGAGATCAGAAGTCCCTAAGGGGAAG    150
+
+EMBOSS_001       138 AGGCAGCACTCTTGGTCTGGACATCGAGACAGCCACCCGTGCTGGAAAGC    187
+                     ||||||||||||.||||||.|||||||.|||||||||.|||.||||||||
+A-USSR-92-197    151 AGGCAGCACTCTCGGTCTGAACATCGAAACAGCCACCTGTGTTGGAAAGC    200
+
+EMBOSS_001       188 AGATAGTGGAGCGGATTCTGAAGGAAGAATCCGATGAGGCACTTAAAATG    237
+                     |.|||||||||.||||||||||||||||||||||||||||||||||||||
+A-USSR-92-197    201 AAATAGTGGAGAGGATTCTGAAGGAAGAATCCGATGAGGCACTTAAAATG    250
+
+EMBOSS_001       238 ACCATTGCCTCTGTACCTGCTTCGCGCTACCTAACTGACATGACTCTTGA    287
+                     |||||.|||||.|.||||||||||||.||||||||||||||||||.||||
+A-USSR-92-197    251 ACCATGGCCTCCGCACCTGCTTCGCGATACCTAACTGACATGACTATTGA    300
+
+EMBOSS_001       288 GGAGATGTCAAGGGACTGGTTCATGCTCATGCCCAAGCAGAAAGTGGCAG    337
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+A-USSR-92-197    301 GGAAATGTCAAGGGACTGGTTCATGCTCATGCCCAAGCAGAAAGTGGCAG    350
+
+EMBOSS_001       338 GCTCTCTTTGTATCAGAATGGACCAGGCGATCATGGATAAGAACATCATA    387
+                     ||.||||||||||||||||||||||||||||.||||||||||||||||||
+A-USSR-92-197    351 GCCCTCTTTGTATCAGAATGGACCAGGCGATAATGGATAAGAACATCATA    400
+
+EMBOSS_001       388 CTGAAAGCGAACTTCAGTGTGATTTTCGACCGGCTGGAGACTCTAATACT    437
+                     |||||||||||.||||||||||||||.|||||||||||||||||||||.|
+A-USSR-92-197    401 CTGAAAGCGAATTTCAGTGTGATTTTTGACCGGCTGGAGACTCTAATATT    450
+
+EMBOSS_001       438 ACTAAGGGCTTTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCAT    487
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-USSR-92-197    451 ACTAAGGGCTTTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCAT    500
+
+EMBOSS_001       488 TGCCTTCTCTTCCAGGACATACTGATGAGGATGTCAAAAATGCAGTTGGG    537
+                     |||||||||||||||||||||||.||||||||||||||||||||.|||||
+A-USSR-92-197    501 TGCCTTCTCTTCCAGGACATACTAATGAGGATGTCAAAAATGCAATTGGG    550
+
+EMBOSS_001       538 GTCCTCATCGGAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTGA    587
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+A-USSR-92-197    551 GTCCTCATCGGAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTAA    600
+
+EMBOSS_001       588 AACTCTACAGAGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTC    637
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-USSR-92-197    601 AACTCTACAGAGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTC    650
+
+EMBOSS_001       638 CACTCCCTCCAAAACAGAAACGGAAAATGGCGAGAACAATTAAGTCAGAA    687
+                     |||||.||||||||||||||||||||||||||||||||||||.|||||||
+A-USSR-92-197    651 CACTCACTCCAAAACAGAAACGGAAAATGGCGAGAACAATTAGGTCAGAA    700
+
+EMBOSS_001       688 GTTTGAAGAAATAAGATGGTTGATTGAAGAAGTGAGACATAGACTGAAGA    737
+                     |||.|||||||||||||||.|||||||||||||||||||.|||.||||||
+A-USSR-92-197    701 GTTCGAAGAAATAAGATGGCTGATTGAAGAAGTGAGACACAGATTGAAGA    750
+
+EMBOSS_001       738 TAACAGAGAATAGTTTTGAGCAAATAACATTTATGCAAGCCTTACAACTA    787
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+A-USSR-92-197    751 TAACAGAGAATAGTTTTGAGCAAATAACATTTATGCAAGCCTTACAGCTA    800
+
+EMBOSS_001       788 TTGCTTGAAGTGGAGCAAGAGATAAGAACTTTCTCGTTTCAGCTTATTTA    837
+                     |||.||||||||||.||||||||||||||||||||.||||||||||||||
+A-USSR-92-197    801 TTGTTTGAAGTGGAACAAGAGATAAGAACTTTCTCATTTCAGCTTATTTA    850
+
+EMBOSS_001       838 A---    838
+                     |   
+A-USSR-92-197    851 ATAA    854
+
+
+#---------------------------------------
+#---------------------------------------
