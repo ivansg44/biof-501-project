@@ -1,0 +1,222 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Nov 2021 10:38:20
+# Commandline: needle
+#    [-asequence] reference/segment-1-reference/segment-1-reference.fasta
+#    [-bsequence] samples/segment-1-samples/A-FortMonmouth-1-1947-segment-1.fasta
+#    -sid2 A-FortMonmouth-1-1947
+#    -auto
+#    -outfile pairwise-alignments/segment-1-pairwise-alignments/A-FortMonmouth-1-1947-segment-1-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-1-pairwise-alignments/A-FortMonmouth-1-1947-segment-1-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-FortMonmouth-1-1947
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2313
+# Identity:    2146/2313 (92.8%)
+# Similarity:  2146/2313 (92.8%)
+# Gaps:          33/2313 ( 1.4%)
+# Score: 10194.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------ATGGAAAGAATAAAAGAACTAAGGGATCTAATGTC     35
+                                    ||||||||||||||||||||||||.||||.|||||
+A-FortMonmout      1 TCAATTATATTCAATATGGAAAGAATAAAAGAACTAAGGAATCTGATGTC     50
+
+EMBOSS_001        36 GCAGTCTCGCACTCGCGAGATACTCACAAAAACCACCGTGGACCATATGG     85
+                     ||||||||||||||||||||||||||||||||||||.|||||||||||||
+A-FortMonmout     51 GCAGTCTCGCACTCGCGAGATACTCACAAAAACCACAGTGGACCATATGG    100
+
+EMBOSS_001        86 CCATAATCAAGAAGTACACATCAGGAAGACAGGAGAAGAACCCCGCACTT    135
+                     |||||||.|||||||||||||||||||||||||||||||||||..|||||
+A-FortMonmout    101 CCATAATTAAGAAGTACACATCAGGAAGACAGGAGAAGAACCCGTCACTT    150
+
+EMBOSS_001       136 AGGATGAAATGGATGATGGCAATGAAATATCCAATTACAGCAGACAAGAG    185
+                     ||||||||||||||||||||||||||||||||.|||||||||||||||||
+A-FortMonmout    151 AGGATGAAATGGATGATGGCAATGAAATATCCGATTACAGCAGACAAGAG    200
+
+EMBOSS_001       186 GATAATGGAAATGATTCCTGAGAGAAATGAGCAAGGACAAACTCTATGGA    235
+                     |||||.||||||||||||||||||||||||||||||.||||||.|.||||
+A-FortMonmout    201 GATAACGGAAATGATTCCTGAGAGAAATGAGCAAGGGCAAACTTTGTGGA    250
+
+EMBOSS_001       236 GTAAAACGAACGATGCCGGATCAGACCGAGTGATGGTATCACCTCTGGCT    285
+                     ||||||.|||.|||||||||||||||||||||||||||||||||||||||
+A-FortMonmout    251 GTAAAATGAATGATGCCGGATCAGACCGAGTGATGGTATCACCTCTGGCT    300
+
+EMBOSS_001       286 GTGACATGGTGGAATAGGAATGGACCAACGACAAGTGCAGTTCACTATCC    335
+                     |||||||||||||||||.||||||||||.|||||||.|.|||||.|||||
+A-FortMonmout    301 GTGACATGGTGGAATAGAAATGGACCAATGACAAGTACGGTTCATTATCC    350
+
+EMBOSS_001       336 AAAAATCTACAAAACTTATTTTGAAAAAGTCGAAAGGTTAAAACATGGAA    385
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-FortMonmout    351 AAAAATCTACAAAACTTATTTTGAAAAAGTCGAAAGGTTAAAACATGGAA    400
+
+EMBOSS_001       386 CCTTTGGCCCTGTCCATTTCAGAAACCAAGTCAAAATACGTCGAAGAGTT    435
+                     |||||||||||||||||||.||||||||||||||||||||.|||||||||
+A-FortMonmout    401 CCTTTGGCCCTGTCCATTTTAGAAACCAAGTCAAAATACGCCGAAGAGTT    450
+
+EMBOSS_001       436 GACATAAATCCTGGTCATGCAGATCTCAGTGCCAAAGAGGCACAGGATGT    485
+                     |||||||||||||||||||||||.|||||||||||.||||||||||||||
+A-FortMonmout    451 GACATAAATCCTGGTCATGCAGACCTCAGTGCCAAGGAGGCACAGGATGT    500
+
+EMBOSS_001       486 AATCATGGAAGTTGTTTTCCCAAACGAAGTGGGAGCCAGGATACTAACAT    535
+                     |||||||||||||||||||||.|||||||||||||||||.||||||||.|
+A-FortMonmout    501 AATCATGGAAGTTGTTTTCCCTAACGAAGTGGGAGCCAGAATACTAACGT    550
+
+EMBOSS_001       536 CGGAATCGCAACTGACAATAACCAAAGAAAAGAAAGAAGAACTCCAAGAT    585
+                     |||||||||||.|.||.|||||||||||.|||||||||||||||||.|||
+A-FortMonmout    551 CGGAATCGCAATTAACGATAACCAAAGAGAAGAAAGAAGAACTCCAGGAT    600
+
+EMBOSS_001       586 TGTAAAATTTCTCCTTTAATGGTGGCATACATGTTGGAGAGAGAACTGGT    635
+                     ||.||||||||||||||.|||||.|||||||||||.|||||||||||.||
+A-FortMonmout    601 TGCAAAATTTCTCCTTTGATGGTTGCATACATGTTAGAGAGAGAACTTGT    650
+
+EMBOSS_001       636 CCGAAAAACAAGATTCCTCCCAGTGGCTGGTGGGACAAGCAGTGTGTATA    685
+                     |||.|||||.||.||.||||||||.||||||||.||||||||||||||.|
+A-FortMonmout    651 CCGCAAAACGAGGTTTCTCCCAGTTGCTGGTGGAACAAGCAGTGTGTACA    700
+
+EMBOSS_001       686 TTGAAGTGTTGCATTTGACTCAAGGAACATGCTGGGAACAGATGTACACT    735
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-FortMonmout    701 TTGAAGTGTTGCATTTGACTCAAGGAACATGCTGGGAACAGATGTACACT    750
+
+EMBOSS_001       736 CCAGGAGGGGAAGTGAGGAATGATGATGTTGATCAAAGCTTAATTATTGC    785
+                     |||||.||.||||||||||||||||||||||||||||||.||||||||||
+A-FortMonmout    751 CCAGGTGGAGAAGTGAGGAATGATGATGTTGATCAAAGCCTAATTATTGC    800
+
+EMBOSS_001       786 TGCTAGGAACATAGTGAGAAGAGCGACAGTGTCAGCAGATCCACTAGCAT    835
+                     |||.||||||||||||||||||||..||||.|||||||||||||||||||
+A-FortMonmout    801 TGCCAGGAACATAGTGAGAAGAGCTGCAGTATCAGCAGATCCACTAGCAT    850
+
+EMBOSS_001       836 CTCTGTTGGAAATGTGCCACAGCACACAGATTGGTGGAATAAGGATGGTA    885
+                     ||.|.|||||.||||||||||||||||||||||||||.|.|||||||||.
+A-FortMonmout    851 CTTTATTGGAGATGTGCCACAGCACACAGATTGGTGGGACAAGGATGGTG    900
+
+EMBOSS_001       886 GACATCCTTAGGCAGAACCCGACAGAAGAGCAAGCCGTGGATATATGCAA    935
+                     |||||.||||||||||||||.||||||||||||||.||||||||||||||
+A-FortMonmout    901 GACATTCTTAGGCAGAACCCAACAGAAGAGCAAGCTGTGGATATATGCAA    950
+
+EMBOSS_001       936 GGCAGCAATGGGCCTGAGAATTAGCTCATCCTTTAGCTTTGGCGGATTCA    985
+                     |||.||||||||.||||||||.|||||||||||.||.|||||||||||||
+A-FortMonmout    951 GGCTGCAATGGGACTGAGAATCAGCTCATCCTTCAGTTTTGGCGGATTCA   1000
+
+EMBOSS_001       986 CATTTAAGAGGACAAGTGGCTCATCAGTCAAGAGGGAGGAAGAAGTGCTT   1035
+                     ||||||||||.|||||.||.||||||||||||||.|||||||||||||||
+A-FortMonmout   1001 CATTTAAGAGAACAAGCGGATCATCAGTCAAGAGAGAGGAAGAAGTGCTT   1050
+
+EMBOSS_001      1036 ACAGGCAATCTTCAAACATTGAAGATAAGAGTGCATGAGGGATATGAAGA   1085
+                     ||.||||||||||||||||||||||||||.||||||||||||||||||||
+A-FortMonmout   1051 ACGGGCAATCTTCAAACATTGAAGATAAGGGTGCATGAGGGATATGAAGA   1100
+
+EMBOSS_001      1086 GTTCACAATGGTTGGGAGAAGAGCAACAGCTATACTCAGAAAAGCGACCA   1135
+                     |||||||||||||||||.|||.|||||||||||||||||||||||.||||
+A-FortMonmout   1101 GTTCACAATGGTTGGGAAAAGGGCAACAGCTATACTCAGAAAAGCAACCA   1150
+
+EMBOSS_001      1136 GGAGATTGATTCAGCTGATAGTGAGTGGGAGAGACGAACAGTCGATTGCC   1185
+                     ||||||||||||||||||||||||||||.|||||||||||||||||.|||
+A-FortMonmout   1151 GGAGATTGATTCAGCTGATAGTGAGTGGAAGAGACGAACAGTCGATAGCC   1200
+
+EMBOSS_001      1186 GAGGCAATAATTGTGGCCATGGTATTTTCACAAGAGGATTGTATGATAAA   1235
+                     ||.||||||||||||||||||||||||||||||||.||||||||||||||
+A-FortMonmout   1201 GAAGCAATAATTGTGGCCATGGTATTTTCACAAGAAGATTGTATGATAAA   1250
+
+EMBOSS_001      1236 GGCAGTTAGGGGTGATCTGAATTTCGTTAATAGGGCGAATCAGCGATTGA   1285
+                     .||||||||.||||||||||||||||||||||||||.|||||.|||||||
+A-FortMonmout   1251 AGCAGTTAGAGGTGATCTGAATTTCGTTAATAGGGCAAATCAACGATTGA   1300
+
+EMBOSS_001      1286 ATCCTATGCATCAACTTTTGAGGCATTTTCAAAAGGATGCGAAAGTGCTT   1335
+                     |||||||||||||||||||.||.||||||||.||||||||||||||||||
+A-FortMonmout   1301 ATCCTATGCATCAACTTTTAAGACATTTTCAGAAGGATGCGAAAGTGCTT   1350
+
+EMBOSS_001      1336 TTTCAAAATTGGGGAATTGAACCCATCGACAATGTGATGGGAATGATTGG   1385
+                     ||||||||||||||||||||||..||||||||||||||||||||||||||
+A-FortMonmout   1351 TTTCAAAATTGGGGAATTGAACATATCGACAATGTGATGGGAATGATTGG   1400
+
+EMBOSS_001      1386 GATACTGCCCGACATGACTCCAAGTACTGAGATGTCAATGAGAGGAGTGA   1435
+                     ||||.|.||.||||||||||||||.||.||||||||||||||||||||.|
+A-FortMonmout   1401 GATATTACCAGACATGACTCCAAGCACAGAGATGTCAATGAGAGGAGTAA   1450
+
+EMBOSS_001      1436 GAGTCAGCAAAATGGGAGTAGATGAGTACTCCAGCACAGAGAGGGTGGTG   1485
+                     ||||||||||||||||.||||||||.|||||||||.|.||||||||.|||
+A-FortMonmout   1451 GAGTCAGCAAAATGGGCGTAGATGAATACTCCAGCGCGGAGAGGGTAGTG   1500
+
+EMBOSS_001      1486 GTGAGCATTGACCGCTTTTTAAGAGTCCGGGACCAACGAGGAAACGTACT   1535
+                     ||||||||||||||.|||||.|||||.|||||||||||||||||.|||||
+A-FortMonmout   1501 GTGAGCATTGACCGTTTTTTGAGAGTTCGGGACCAACGAGGAAATGTACT   1550
+
+EMBOSS_001      1536 ACTGTCTCCTGAGGAGGTCAGCGAAACACAGGGAACAGAGAAATTGACGA   1585
+                     |||||||||.|||||||||||.|||||||||||||||||||||.||||.|
+A-FortMonmout   1551 ACTGTCTCCCGAGGAGGTCAGTGAAACACAGGGAACAGAGAAACTGACAA   1600
+
+EMBOSS_001      1586 TAACTTATTCATCGTCAATGATGTGGGAGGTTAATGGCCCTGAATCAGTG   1635
+                     |||||||.|||||||||||||||||||||.||||||||||||||||||||
+A-FortMonmout   1601 TAACTTACTCATCGTCAATGATGTGGGAGATTAATGGCCCTGAATCAGTG   1650
+
+EMBOSS_001      1636 TTGGTCAACACCTATCAGTGGATCATCAGAAACTGGGAAACTGTTAAAAT   1685
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+A-FortMonmout   1651 TTGGTCAATACCTATCAGTGGATCATCAGAAACTGGGAAACTGTTAAAAT   1700
+
+EMBOSS_001      1686 TCAGTGGTCACAGAATCCTACAATGCTATACAATAAAATGGAATTTGAGC   1735
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+A-FortMonmout   1701 TCAGTGGTCTCAGAATCCTACAATGCTATACAATAAAATGGAATTTGAGC   1750
+
+EMBOSS_001      1736 CATTTCAGTCTTTAGTTCCTAAGGCCGCTAGAGGTCAATACAGTGGGTTT   1785
+                     ||||||||||||||||||||||||||..||||||.|||||||||||||||
+A-FortMonmout   1751 CATTTCAGTCTTTAGTTCCTAAGGCCATTAGAGGCCAATACAGTGGGTTT   1800
+
+EMBOSS_001      1786 GTGAGAACTCTGTTCCAGCAAATGAGGGATGTGCTTGGGACATTTGACAC   1835
+                     ||.||||||||||||||.||||||||||||||||||||||||||||||||
+A-FortMonmout   1801 GTTAGAACTCTGTTCCAACAAATGAGGGATGTGCTTGGGACATTTGACAC   1850
+
+EMBOSS_001      1836 CGTTCAGATAATAAAACTTCTTCCCTTTGCAGCCGCTCCACCAAAGCAAA   1885
+                     |...||||||||||||||||||||||||||||||||||||||||||||||
+A-FortMonmout   1851 CACCCAGATAATAAAACTTCTTCCCTTTGCAGCCGCTCCACCAAAGCAAA   1900
+
+EMBOSS_001      1886 GTAGAATGCAGTTCTCCTCTCTGACTGTGAATGTGAGAGGATCAGGAATG   1935
+                     |||||||||||||||||||..||||||||||||||||.||||||||||||
+A-FortMonmout   1901 GTAGAATGCAGTTCTCCTCATTGACTGTGAATGTGAGGGGATCAGGAATG   1950
+
+EMBOSS_001      1936 AGAATACTTGTAAGGGGCAATTCTCCCGTATTCAACTACAACAAGGCCAC   1985
+                     ||||||||||||||||||||||||||.||||||||||||||||||.||||
+A-FortMonmout   1951 AGAATACTTGTAAGGGGCAATTCTCCAGTATTCAACTACAACAAGACCAC   2000
+
+EMBOSS_001      1986 TAAGAGACTCACAGTTCTCGGAAAGGATGCAGGTGCTTTAACTGAAGACC   2035
+                     .|||||||||||||||||||||||||||||.||..|||||||||||||||
+A-FortMonmout   2001 CAAGAGACTCACAGTTCTCGGAAAGGATGCTGGCACTTTAACTGAAGACC   2050
+
+EMBOSS_001      2036 CAGATGAAGGCACAGCTGGAGTGGAGTCTGCTGTTCTGAGAGGATTCCTC   2085
+                     ||||||||||||||||||||||||||||.|||||||||||.|||||||||
+A-FortMonmout   2051 CAGATGAAGGCACAGCTGGAGTGGAGTCCGCTGTTCTGAGGGGATTCCTC   2100
+
+EMBOSS_001      2086 ATTCTGGGCAAAGAAGACAGGAGATATGGGCCAGCATTAAGCATCAATGA   2135
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+A-FortMonmout   2101 ATTCTGGGCAAAGAAGATAGGAGATATGGGCCAGCATTAAGCATCAATGA   2150
+
+EMBOSS_001      2136 ACTGAGCAATCTTGCGAAAGGGGAGAAGGCTAATGTGCTAATTGGGCAAG   2185
+                     |||||||||.|||||||||||.||.|||||||||||||||||||||||||
+A-FortMonmout   2151 ACTGAGCAACCTTGCGAAAGGAGAAAAGGCTAATGTGCTAATTGGGCAAG   2200
+
+EMBOSS_001      2186 GAGACGTGGTGTTGGTAATGAAACGGAAACGGGACTCTAGCATACTTACT   2235
+                     |.|||||||||||||||||||||||.||||||||||||||||||||||||
+A-FortMonmout   2201 GGGACGTGGTGTTGGTAATGAAACGAAAACGGGACTCTAGCATACTTACT   2250
+
+EMBOSS_001      2236 GACAGCCAGACAGCGACCAAAAGAATTCGGATGGCCATCAATTAG-----   2280
+                     ||||||||||||||||||||||||||||||||||||||||||||.     
+A-FortMonmout   2251 GACAGCCAGACAGCGACCAAAAGAATTCGGATGGCCATCAATTAATGTCG   2300
+
+EMBOSS_001      2280 -------------   2280
+                                  
+A-FortMonmout   2301 AATAGTTTAAAAA   2313
+
+
+#---------------------------------------
+#---------------------------------------

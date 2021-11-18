@@ -88,7 +88,7 @@ for i, alignment in enumerate(ALIGNMENTS):
     # Put a label on the left of this row indicating which alternate
     # strain was used.
     alt_id = alignment[1].id
-    plt.setp(axs[i], ylabel=alt_id)
+    plt.setp(axs[i, 0], ylabel=alt_id)
 
 # Set titles at the top of each column to indicate what mutations are
 # visualized.

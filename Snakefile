@@ -3,7 +3,8 @@ from os import path
 SEGMENTS = range(1, 9)
 SAMPLES = [
     "A-USSR-92-1977",
-    "A-California-07-2009"
+    "A-California-07-2009",
+    "A-FortMonmouth-1-1947"
 ]
 
 rule all:
