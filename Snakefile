@@ -4,7 +4,8 @@ SEGMENTS = range(1, 9)
 SAMPLES = [
     "A-USSR-92-1977",
     "A-California-07-2009",
-    "A-FortMonmouth-1-1947"
+    "A-FortMonmouth-1-1947",
+    "A-Albany-4836-1950"
 ]
 
 rule all:

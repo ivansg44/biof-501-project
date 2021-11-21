@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Sun 21 Nov 2021 14:50:18
+# Commandline: needle
+#    [-asequence] reference/segment-8-reference/segment-8-reference.fasta
+#    [-bsequence] samples/segment-8-samples/A-Albany-4836-1950-segment-8.fasta
+#    -sid2 A-Albany-4836-1950
+#    -auto
+#    -outfile pairwise-alignments/segment-8-pairwise-alignments/A-Albany-4836-1950-segment-8-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-8-pairwise-alignments/A-Albany-4836-1950-segment-8-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-Albany-4836-1950
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 841
+# Identity:     803/841 (95.5%)
+# Similarity:   803/841 (95.5%)
+# Gaps:           3/841 ( 0.4%)
+# Score: 3875.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---ATGGATTCCAACACTGTGTCAAGCTTTCAGGTAGACTGCTTTCTTTG     47
+                        ||||||.||||||||||||||||||||||||||||.|||||.|||||
+A-Albany-4836      1 ATAATGGATCCCAACACTGTGTCAAGCTTTCAGGTAGATTGCTTCCTTTG     50
+
+EMBOSS_001        48 GCATGTCCGCAAACGGTTTGCAGACCAAGAACTGGGTGATGCCCCATTCC     97
+                     ||||||||||||||...||||||||||||||||.||||||||||||||||
+A-Albany-4836     51 GCATGTCCGCAAACAAGTTGCAGACCAAGAACTAGGTGATGCCCCATTCC    100
+
+EMBOSS_001        98 TTGATCGGCTTCGCCGAGATCAGAAGTCCCTAAGAGGAAGAGGCAGCACT    147
+                     ||||||||||||||||||||||||||||||||||.|||||||||||||||
+A-Albany-4836    101 TTGATCGGCTTCGCCGAGATCAGAAGTCCCTAAGGGGAAGAGGCAGCACT    150
+
+EMBOSS_001       148 CTTGGTCTGGACATCGAGACAGCCACCCGTGCTGGAAAGCAGATAGTGGA    197
+                     ||.||||||.|||||||.|||||||||||||.||||||||||||||||||
+A-Albany-4836    151 CTCGGTCTGAACATCGAAACAGCCACCCGTGTTGGAAAGCAGATAGTGGA    200
+
+EMBOSS_001       198 GCGGATTCTGAAGGAAGAATCCGATGAGGCACTTAAAATGACCATTGCCT    247
+                     |.|||||||||||||||||||||||||||||||||||||||||||.||||
+A-Albany-4836    201 GAGGATTCTGAAGGAAGAATCCGATGAGGCACTTAAAATGACCATGGCCT    250
+
+EMBOSS_001       248 CTGTACCTGCTTCGCGCTACCTAACTGACATGACTCTTGAGGAGATGTCA    297
+                     |.|.||||||||||||.||||||||||||||||||.|||||||.||||||
+A-Albany-4836    251 CCGCACCTGCTTCGCGATACCTAACTGACATGACTATTGAGGAAATGTCA    300
+
+EMBOSS_001       298 AGGGACTGGTTCATGCTCATGCCCAAGCAGAAAGTGGCAGGCTCTCTTTG    347
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+A-Albany-4836    301 AGGGACTGGTTCATGCTCATGCCCAAGCAGAAAGTGGCAGGCCCTCTTTG    350
+
+EMBOSS_001       348 TATCAGAATGGACCAGGCGATCATGGATAAGAACATCATACTGAAAGCGA    397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-Albany-4836    351 TATCAGAATGGACCAGGCGATCATGGATAAGAACATCATACTGAAAGCGA    400
+
+EMBOSS_001       398 ACTTCAGTGTGATTTTCGACCGGCTGGAGACTCTAATACTACTAAGGGCT    447
+                     |.||||||||||||||.|||||||||||||||||||||.|||||||||||
+A-Albany-4836    401 ATTTCAGTGTGATTTTTGACCGGCTGGAGACTCTAATATTACTAAGGGCT    450
+
+EMBOSS_001       448 TTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCATTGCCTTCTCT    497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-Albany-4836    451 TTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCATTGCCTTCTCT    500
+
+EMBOSS_001       498 TCCAGGACATACTGATGAGGATGTCAAAAATGCAGTTGGGGTCCTCATCG    547
+                     |||||||||||||.||||||||||||||||||||.|||||||||||||||
+A-Albany-4836    501 TCCAGGACATACTAATGAGGATGTCAAAAATGCAATTGGGGTCCTCATCG    550
+
+EMBOSS_001       548 GAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTGAAACTCTACAG    597
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+A-Albany-4836    551 GAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTAAAACTCTACAG    600
+
+EMBOSS_001       598 AGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTCCACTCCCTCC    647
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+A-Albany-4836    601 AGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTCCACTCACTCC    650
+
+EMBOSS_001       648 AAAACAGAAACGGAAAATGGCGAGAACAATTAAGTCAGAAGTTTGAAGAA    697
+                     ||||||||||||||||||||||||||||||||.||||||||||.||||||
+A-Albany-4836    651 AAAACAGAAACGGAAAATGGCGAGAACAATTAGGTCAGAAGTTCGAAGAA    700
+
+EMBOSS_001       698 ATAAGATGGTTGATTGAAGAAGTGAGACATAGACTGAAGATAACAGAGAA    747
+                     |||||||||.|||||||||||||||||||.|||.||||||||||||||||
+A-Albany-4836    701 ATAAGATGGCTGATTGAAGAAGTGAGACACAGATTGAAGATAACAGAGAA    750
+
+EMBOSS_001       748 TAGTTTTGAGCAAATAACATTTATGCAAGCCTTACAACTATTGCTTGAAG    797
+                     ||||||||||||||||||||||||||||||||||||.||||||.||||||
+A-Albany-4836    751 TAGTTTTGAGCAAATAACATTTATGCAAGCCTTACAGCTATTGTTTGAAG    800
+
+EMBOSS_001       798 TGGAGCAAGAGATAAGAACTTTCTCGTTTCAGCTTATTTAA    838
+                     ||||.||||||||||||||||||||||||||||||||||||
+A-Albany-4836    801 TGGAACAAGAGATAAGAACTTTCTCGTTTCAGCTTATTTAA    841
+
+
+#---------------------------------------
+#---------------------------------------

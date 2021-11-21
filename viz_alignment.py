@@ -34,8 +34,8 @@ fig, axs = plt.subplots(
     # Consistent y axis scale in each col
     sharey="col",
     # Fig size correlates with the number of bins, which correlates
-    # with inputted segment length.
-    figsize=(len(BINS) * 0.5, 6)
+    # with inputted segment length, and number of alignments.
+    figsize=(len(BINS) * 0.5, len(ALIGNMENTS) * 3)
 )
 
 # Title at top of visualization file
