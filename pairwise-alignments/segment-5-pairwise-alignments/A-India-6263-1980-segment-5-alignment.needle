@@ -1,0 +1,158 @@
+########################################
+# Program: needle
+# Rundate: Sun 21 Nov 2021 16:46:21
+# Commandline: needle
+#    [-asequence] reference/segment-5-reference/segment-5-reference.fasta
+#    [-bsequence] samples/segment-5-samples/A-India-6263-1980-segment-5.fasta
+#    -sid2 A-India-6263-1980
+#    -auto
+#    -outfile pairwise-alignments/segment-5-pairwise-alignments/A-India-6263-1980-segment-5-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-5-pairwise-alignments/A-India-6263-1980-segment-5-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-India-6263-1980
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1531
+# Identity:    1392/1531 (90.9%)
+# Similarity:  1392/1531 (90.9%)
+# Gaps:          34/1531 ( 2.2%)
+# Score: 6540.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------------ATGGCGTCTCAAGGCACCAAACGA     24
+                                               ||||||||.||||||||||||||.
+A-India-6263-      1 ATCACTCACTGAGTGACATCAAAATCATGGCGTCCCAAGGCACCAAACGG     50
+
+EMBOSS_001        25 TCTTACGAACAGATGGAGACTGATGGGGAACGCCAGAATGCCACTGAAAT     74
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+A-India-6263-     51 TCTTACGAACAGATGGAGACTGATGGGGAACGCCAGAATGCAACTGAAAT    100
+
+EMBOSS_001        75 CAGAGCATCTGTCGGAAGAATGATTGGTGGAATTGGACGATTCTACATCC    124
+                     |||||||||.|||||||.||||||||||||||||||||||||||||||||
+A-India-6263-    101 CAGAGCATCCGTCGGAAAAATGATTGGTGGAATTGGACGATTCTACATCC    150
+
+EMBOSS_001       125 AAATGTGCACCGAACTTAAACTCAGTGATTATGAGGGACGGCTGATCCAG    174
+                     |||||||||||||.||||||||||.|||||||||||||||||||||||||
+A-India-6263-    151 AAATGTGCACCGAGCTTAAACTCAATGATTATGAGGGACGGCTGATCCAG    200
+
+EMBOSS_001       175 AACAGCATAACAATAGAGAGAATGGTGCTCTCTGCTTTTGACGAGAGGAG    224
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+A-India-6263-    201 AACAGCTTAACAATAGAGAGAATGGTGCTCTCTGCTTTTGACGAGAGGAG    250
+
+EMBOSS_001       225 GAATAAATATCTGGAAGAACATCCCAGCGCTGGGAAAGACCCTAAGAAAA    274
+                     ||||||||||||||||||||||||||||||.||||||||.||||||||||
+A-India-6263-    251 GAATAAATATCTGGAAGAACATCCCAGCGCGGGGAAAGATCCTAAGAAAA    300
+
+EMBOSS_001       275 CTGGAGGACCCATATACAGGAGAATAGATGGAAAGTGGATGAGAGAACTC    324
+                     ||||||||||||||||||.||||.|||||||||||||||||||..|||||
+A-India-6263-    301 CTGGAGGACCCATATACAAGAGAGTAGATGGAAAGTGGATGAGGAAACTC    350
+
+EMBOSS_001       325 ATCCTTTATGACAAAGAAGAAATAAGGAGAATCTGGCGCCAAGCTAATAA    374
+                     .||||||||||||||||||||||||||.||||||||||||||||.||.||
+A-India-6263-    351 GTCCTTTATGACAAAGAAGAAATAAGGCGAATCTGGCGCCAAGCCAACAA    400
+
+EMBOSS_001       375 TGGTGAAGATGCAACAGCTGGTCTGACTCACATGATGATCTGGCATTCCA    424
+                     ||||||.||||||||.||||||.|||||||||||||||||||||||||||
+A-India-6263-    401 TGGTGATGATGCAACGGCTGGTTTGACTCACATGATGATCTGGCATTCCA    450
+
+EMBOSS_001       425 ATTTGAATGATGCCACTTATCAGAGGACAAGAGCTCTTGTTCGCACCGGA    474
+                     |||||||||||.|.|||||.||||||||||||||||||||.|||||||||
+A-India-6263-    451 ATTTGAATGATACAACTTACCAGAGGACAAGAGCTCTTGTCCGCACCGGA    500
+
+EMBOSS_001       475 ATGGATCCCAGGATGTGCTCTCTGATGCAAGGTTCAACTCTCCCTAGGAG    524
+                     |||||||||||||||||||||.|||||||.||||||||||||||||||||
+A-India-6263-    501 ATGGATCCCAGGATGTGCTCTTTGATGCAGGGTTCAACTCTCCCTAGGAG    550
+
+EMBOSS_001       525 GTCTGGAGCCGCAGGTGCTGCAGTCAAAGGAGTTGGAACAATGGTGATGG    574
+                     |||||||||.|||||.||||||||||||||||||||||||||||||.|||
+A-India-6263-    551 GTCTGGAGCTGCAGGCGCTGCAGTCAAAGGAGTTGGAACAATGGTGTTGG    600
+
+EMBOSS_001       575 AGTTGATCAGGATGATCAAACGTGGGATCAATGATCGGAACTTCTGGAGG    624
+                     ||||||||||||||||||||||||||||||||||.||.||||||||||||
+A-India-6263-    601 AGTTGATCAGGATGATCAAACGTGGGATCAATGACCGAAACTTCTGGAGG    650
+
+EMBOSS_001       625 GGTGAGAATGGACGAAGGACAAGAATTGCCTATGAAAGAATGTGCAACAT    674
+                     ||||||||||||.|||..|||||.|||||.|||||.||||||||||||||
+A-India-6263-    651 GGTGAGAATGGAAGAAAAACAAGGATTGCTTATGAGAGAATGTGCAACAT    700
+
+EMBOSS_001       675 TCTCAAAGGGAAATTTCAAACAGCTGCACAGAGAGCAATGATGGATCAAG    724
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+A-India-6263-    701 TCTCAAAGGGAAATTTCAAACAGCTGCACAAAGAGCAATGATGGATCAAG    750
+
+EMBOSS_001       725 TGAGAGAGAGCCGGAATCCAGGAAATGCTGAAATTGAAGATCTCATCTTT    774
+                     |||||||.||||||||.||||||||||||||.||.||||||||||.||||
+A-India-6263-    751 TGAGAGAAAGCCGGAACCCAGGAAATGCTGAGATCGAAGATCTCACCTTT    800
+
+EMBOSS_001       775 CTGGCACGGTCTGCACTCATATTGAGAGGGTCAGTTGCTCACAAGTCCTG    824
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+A-India-6263-    801 CTGGCACGGTCTGCACTCATATTGAGAGGGTCAGTTGCTCACAAGTCTTG    850
+
+EMBOSS_001       825 CCTGCCTGCCTGTGTGTATGGACCTGCTGTAGCCAGTGGATACGACTTTG    874
+                     |||||||||||||||||||||||||||.|||||||||||.||||||||.|
+A-India-6263-    851 CCTGCCTGCCTGTGTGTATGGACCTGCCGTAGCCAGTGGGTACGACTTCG    900
+
+EMBOSS_001       875 AAAGAGAGGGATACTCTCTGGTCGGAATAGACCCTTTCAGACTGCTTCAA    924
+                     |||.|||||||||||||.||||.||.|||||||||||||.||||||||||
+A-India-6263-    901 AAAAAGAGGGATACTCTTTGGTAGGGATAGACCCTTTCAAACTGCTTCAA    950
+
+EMBOSS_001       925 AACAGCCAAGTATACAGTCTAATCAGACCAAATGAGAATCCAGCACACAA    974
+                     |.|||||||||||||||.|||||||||.|.||.|||||||||||||||||
+A-India-6263-    951 ACCAGCCAAGTATACAGCCTAATCAGATCGAACGAGAATCCAGCACACAA   1000
+
+EMBOSS_001       975 GAGTCAACTGGTATGGATGGCATGCCATTCTGCTGCATTTGAAGATCTGA   1024
+                     ||||||.|||||.||||||||||||.||||||||||||||||||||||.|
+A-India-6263-   1001 GAGTCAGCTGGTGTGGATGGCATGCAATTCTGCTGCATTTGAAGATCTAA   1050
+
+EMBOSS_001      1025 GAGTATCAAGCTTCATCAGAGGGACAAGAGTGGTTCCAAGAGGGAAGCTT   1074
+                     |||||||||||||||||||||||||||.|||..|.|||||.|||||||||
+A-India-6263-   1051 GAGTATCAAGCTTCATCAGAGGGACAAAAGTAATCCCAAGGGGGAAGCTT   1100
+
+EMBOSS_001      1075 TCCACTAGAGGGGTTCAGATTGCTTCCAATGAAAACATGGAGACTATGGA   1124
+                     |||||||||||.||.||.||||||||.||||||||||||||.|||||||.
+A-India-6263-   1101 TCCACTAGAGGAGTACAAATTGCTTCAAATGAAAACATGGATACTATGGT   1150
+
+EMBOSS_001      1125 CTCCAGTACCCTTGAACTGAGAAGCAGATACTGGGCCATAAGGACCAGAA   1174
+                     .||.|||||.|||||||||||||||||.||||||||||||||||||||||
+A-India-6263-   1151 ATCAAGTACTCTTGAACTGAGAAGCAGGTACTGGGCCATAAGGACCAGAA   1200
+
+EMBOSS_001      1175 GTGGAGGAAACACTAATCAACAGAGGGCATCTGCGGGCCAAATCAGCGTG   1224
+                     ||||||||||||||||||||||.|||||.||||||||||||||||||.|.
+A-India-6263-   1201 GTGGAGGAAACACTAATCAACAAAGGGCCTCTGCGGGCCAAATCAGCATA   1250
+
+EMBOSS_001      1225 CAACCTACATTCTCAGTACAGAGAAACCTCCCTTTTGAGAGAGCAACCAT   1274
+                     ||||||||.||.||.||.||||||||||||||.|||||.|.|.|||||||
+A-India-6263-   1251 CAACCTACGTTTTCTGTGCAGAGAAACCTCCCATTTGACAAAACAACCAT   1300
+
+EMBOSS_001      1275 TATGGCAGCATTCACTGGGAACACAGAGGGGAGAACATCTGACATGAGAA   1324
+                     .||||||||||||||||||||..|.|||||.||||||||.||||||||..
+A-India-6263-   1301 CATGGCAGCATTCACTGGGAATGCGGAGGGAAGAACATCAGACATGAGGG   1350
+
+EMBOSS_001      1325 CCGAAATCATAAGGATGATGGAAAGTGCAAGACCAGAAGATGTGTCTTTC   1374
+                     |.||||||||||.|||||||||||||||||||||||||||.|||||.|||
+A-India-6263-   1351 CAGAAATCATAAAGATGATGGAAAGTGCAAGACCAGAAGAAGTGTCCTTC   1400
+
+EMBOSS_001      1375 CAGGGGCGGGGAGTCTTCGAGCTCTCGGACGAAAAGGCAACGAGCCCGAT   1424
+                     ||||||||||||||||||||||||||||||||||.||||.|||.||||||
+A-India-6263-   1401 CAGGGGCGGGGAGTCTTCGAGCTCTCGGACGAAAGGGCAGCGAACCCGAT   1450
+
+EMBOSS_001      1425 CGTGCCTTCCTTTGACATGAGTAATGAAGGATCTTATTTCTTCGGAGACA   1474
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+A-India-6263-   1451 CGTGCCCTCCTTTGACATGAGTAATGAAGGATCTTATTTCTTCGGAGACA   1500
+
+EMBOSS_001      1475 ATGCAGAGGAGTACGACAATTAA--------   1497
+                     |||||||||||||||||||||||        
+A-India-6263-   1501 ATGCAGAGGAGTACGACAATTAAGGAAAAAT   1531
+
+
+#---------------------------------------
+#---------------------------------------

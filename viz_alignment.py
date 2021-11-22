@@ -9,6 +9,11 @@ import json
 from Bio import AlignIO
 import matplotlib.pyplot as plt
 
+PANDEMIC_STRAINS = {
+    "A-USSR-92-1977",
+    "A-California-07-2009"
+}
+
 with open("reference-segment-lengths.json") as fp:
     REF_SEGMENT_LENGTHS = json.load(fp)
 
@@ -29,14 +34,15 @@ fig, axs = plt.subplots(
     len(ALIGNMENTS),
     # One col for each mutation types
     3,
-    # Minimize padding
-    tight_layout=True,
     # Consistent y axis scale in each col
     sharey="col",
     # Fig size correlates with the number of bins, which correlates
     # with inputted segment length, and number of alignments.
     figsize=(len(BINS) * 0.5, len(ALIGNMENTS) * 3)
 )
+
+# https://stackoverflow.com/a/45161551/11472358
+fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
 
 # Title at top of visualization file
 fig.suptitle("Segment %s" % SEGMENT)
@@ -89,6 +95,12 @@ for i, alignment in enumerate(ALIGNMENTS):
     # strain was used.
     alt_id = alignment[1].id
     plt.setp(axs[i, 0], ylabel=alt_id)
+
+    # Color background if it is a pandemic strain
+    if alt_id in PANDEMIC_STRAINS:
+        axs[i, 0].set_facecolor("#fee8c8")
+        axs[i, 1].set_facecolor("#fee8c8")
+        axs[i, 2].set_facecolor("#fee8c8")
 
 # Set titles at the top of each column to indicate what mutations are
 # visualized.

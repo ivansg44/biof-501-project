@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 14:39:36
+# Commandline: needle
+#    [-asequence] reference/segment-8-reference/segment-8-reference.fasta
+#    [-bsequence] samples/segment-8-samples/A-PuertoRico-8-1934-segment-8.fasta
+#    -sid2 A-PuertoRico-8-1934
+#    -auto
+#    -outfile pairwise-alignments/segment-8-pairwise-alignments/A-PuertoRico-8-1934-segment-8-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-8-pairwise-alignments/A-PuertoRico-8-1934-segment-8-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-PuertoRico-8-1934
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 861
+# Identity:     804/861 (93.4%)
+# Similarity:   804/861 (93.4%)
+# Gaps:          23/861 ( 2.7%)
+# Score: 3884.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------ATGGATTCCAACACTGTGTCAAGCTTTCAGGTAGACT     37
+                                  ||||||.|.||||||||||||||||||||||||||.|
+A-PuertoRico-      1 TGACAAAAACATAATGGATCCAAACACTGTGTCAAGCTTTCAGGTAGATT     50
+
+EMBOSS_001        38 GCTTTCTTTGGCATGTCCGCAAACGGTTTGCAGACCAAGAACTGGGTGAT     87
+                     |||||||||||||||||||||||||..||||||||||||||||.||||||
+A-PuertoRico-     51 GCTTTCTTTGGCATGTCCGCAAACGAGTTGCAGACCAAGAACTAGGTGAT    100
+
+EMBOSS_001        88 GCCCCATTCCTTGATCGGCTTCGCCGAGATCAGAAGTCCCTAAGAGGAAG    137
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+A-PuertoRico-    101 GCCCCATTCCTTGATCGGCTTCGCCGAGATCAGAAATCCCTAAGAGGAAG    150
+
+EMBOSS_001       138 AGGCAGCACTCTTGGTCTGGACATCGAGACAGCCACCCGTGCTGGAAAGC    187
+                     .|||||.|||||.||||||||||||.||||||||||.|||||||||||||
+A-PuertoRico-    151 GGGCAGTACTCTCGGTCTGGACATCAAGACAGCCACACGTGCTGGAAAGC    200
+
+EMBOSS_001       188 AGATAGTGGAGCGGATTCTGAAGGAAGAATCCGATGAGGCACTTAAAATG    237
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||||
+A-PuertoRico-    201 AGATAGTGGAGCGGATTCTGAAAGAAGAATCCGATGAGGCACTTAAAATG    250
+
+EMBOSS_001       238 ACCATTGCCTCTGTACCTGCTTCGCGCTACCTAACTGACATGACTCTTGA    287
+                     |||||.||||||||||||||.|||||.|||||||||||||||||||||||
+A-PuertoRico-    251 ACCATGGCCTCTGTACCTGCGTCGCGTTACCTAACTGACATGACTCTTGA    300
+
+EMBOSS_001       288 GGAGATGTCAAGGGACTGGTTCATGCTCATGCCCAAGCAGAAAGTGGCAG    337
+                     |||.||||||||||||||||.|||||||||.|||||||||||||||||||
+A-PuertoRico-    301 GGAAATGTCAAGGGACTGGTCCATGCTCATACCCAAGCAGAAAGTGGCAG    350
+
+EMBOSS_001       338 GCTCTCTTTGTATCAGAATGGACCAGGCGATCATGGATAAGAACATCATA    387
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+A-PuertoRico-    351 GCCCTCTTTGTATCAGAATGGACCAGGCGATCATGGATAAGAACATCATA    400
+
+EMBOSS_001       388 CTGAAAGCGAACTTCAGTGTGATTTTCGACCGGCTGGAGACTCTAATACT    437
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||.|
+A-PuertoRico-    401 CTGAAAGCGAACTTCAGTGTGATTTTTGACCGGCTGGAGACTCTAATATT    450
+
+EMBOSS_001       438 ACTAAGGGCTTTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCAT    487
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+A-PuertoRico-    451 GCTAAGGGCTTTCACCGAAGAGGGAGCAATTGTTGGCGAAATTTCACCAT    500
+
+EMBOSS_001       488 TGCCTTCTCTTCCAGGACATACTGATGAGGATGTCAAAAATGCAGTTGGG    537
+                     ||||||||||||||||||||||||.||||||||||||||||||||||||.
+A-PuertoRico-    501 TGCCTTCTCTTCCAGGACATACTGCTGAGGATGTCAAAAATGCAGTTGGA    550
+
+EMBOSS_001       538 GTCCTCATCGGAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTGA    587
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-PuertoRico-    551 GTCCTCATCGGAGGACTTGAATGGAATGATAACACAGTTCGAGTCTCTGA    600
+
+EMBOSS_001       588 AACTCTACAGAGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTC    637
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-PuertoRico-    601 AACTCTACAGAGATTCGCTTGGAGAAGCAGTAATGAGAATGGGAGACCTC    650
+
+EMBOSS_001       638 CACTCCCTCCAAAACAGAAACGGAAAATGGCGAGAACAATTAAGTCAGAA    687
+                     |||||.||||||||||||||||..||||||||.|||||||||.|||||||
+A-PuertoRico-    651 CACTCACTCCAAAACAGAAACGAGAAATGGCGGGAACAATTAGGTCAGAA    700
+
+EMBOSS_001       688 GTTTGAAGAAATAAGATGGTTGATTGAAGAAGTGAGACATAGACTGAAGA    737
+                     |||||||||||||||||||||||||||||||||||||||.|.||||||||
+A-PuertoRico-    701 GTTTGAAGAAATAAGATGGTTGATTGAAGAAGTGAGACACAAACTGAAGA    750
+
+EMBOSS_001       738 TAACAGAGAATAGTTTTGAGCAAATAACATTTATGCAAGCCTTACAACTA    787
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+A-PuertoRico-    751 TAACAGAGAATAGTTTTGAGCAAATAACATTTATGCAAGCCTTACATCTA    800
+
+EMBOSS_001       788 TTGCTTGAAGTGGAGCAAGAGATAAGAACTTTCTCGTTTCAGCTTATTTA    837
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A-PuertoRico-    801 TTGCTTGAAGTGGAGCAAGAGATAAGAACTTTCTCGTTTCAGCTTATTTA    850
+
+EMBOSS_001       838 A----------    838
+                     .          
+A-PuertoRico-    851 GTACTAAAAAA    861
+
+
+#---------------------------------------
+#---------------------------------------

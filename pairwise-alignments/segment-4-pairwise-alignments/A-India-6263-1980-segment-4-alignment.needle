@@ -1,0 +1,174 @@
+########################################
+# Program: needle
+# Rundate: Sun 21 Nov 2021 16:44:52
+# Commandline: needle
+#    [-asequence] reference/segment-4-reference/segment-4-reference.fasta
+#    [-bsequence] samples/segment-4-samples/A-India-6263-1980-segment-4.fasta
+#    -sid2 A-India-6263-1980
+#    -auto
+#    -outfile pairwise-alignments/segment-4-pairwise-alignments/A-India-6263-1980-segment-4-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-4-pairwise-alignments/A-India-6263-1980-segment-4-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-India-6263-1980
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1743
+# Identity:    1506/1743 (86.4%)
+# Similarity:  1506/1743 (86.4%)
+# Gaps:          52/1743 ( 3.0%)
+# Score: 6704.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ----------ATGGAGGCAAGACTACTGGTCTTGTTATGTGCATTTGCAG     40
+                               |||.|.||||.||||||||||.|||||||||||.||.|||
+A-India-6263-      1 AACAACCAAAATGAAAGCAAAACTACTGGTCCTGTTATGTGCACTTTCAG     50
+
+EMBOSS_001        41 CTACAAATGCAGACACAATATGTATAGGCTACCATGCGAATAACTCAACC     90
+                     |||||.||||||||||||||||||||||||||||||||||.|||||||||
+A-India-6263-     51 CTACAGATGCAGACACAATATGTATAGGCTACCATGCGAACAACTCAACC    100
+
+EMBOSS_001        91 GACACTGTTGACACAGTACTCGAAAAGAATGTGACCGTGACACACTCTGT    140
+                     |||||||||||||||||||||||||||||.|||||.||||||||||||||
+A-India-6263-    101 GACACTGTTGACACAGTACTCGAAAAGAACGTGACAGTGACACACTCTGT    150
+
+EMBOSS_001       141 TAACCTGCTCGAAGACAGCCACAACGGAAAACTATGTAAATTAAAAGGAA    190
+                     .|||||.||.||.|||||.|||||||||||||||||.|.|.|||||||||
+A-India-6263-    151 CAACCTACTTGAGGACAGTCACAACGGAAAACTATGCAGACTAAAAGGAA    200
+
+EMBOSS_001       191 TAGCCCCATTACAATTGGGGAAATGTAATATCGCCGGATGGCTCTTGGGA    240
+                     ||||||||.||||||||||||||||.|..||.|||||||||.||||.|||
+A-India-6263-    201 TAGCCCCACTACAATTGGGGAAATGCAGCATTGCCGGATGGATCTTAGGA    250
+
+EMBOSS_001       241 AACCCGGAATGCGATTTACTG----CTCACAGCGAGCTCATGGTCCTATA    286
+                     |||||.||||||||.|.||||    ||.|    ||..|||||||||||.|
+A-India-6263-    251 AACCCAGAATGCGAATCACTGGTTTCTAA----GAAATCATGGTCCTACA    296
+
+EMBOSS_001       287 TTGTAGAAACATCGAACTCAGAGAATGGAACATGTTACCCAGGAGATTTC    336
+                     |||.|||||||.|.|||||.|||||||||||||||||||||||..|||||
+A-India-6263-    297 TTGCAGAAACACCAAACTCCGAGAATGGAACATGTTACCCAGGGTATTTC    346
+
+EMBOSS_001       337 ATCGACTATGAAGAACTGAGGGAGCAATTGAGCTCAGTGTCATCGTTTGA    386
+                     ..|||||||||.||||||||||||||||||||.|||||.|||||.||.||
+A-India-6263-    347 GCCGACTATGAGGAACTGAGGGAGCAATTGAGTTCAGTATCATCATTCGA    396
+
+EMBOSS_001       387 AAAATTCGAAATATTTCCCAAGACAAGCTCGTGGCCCAATCATGAAAC--    434
+                     .|.||||||||||||.||||||..|||.||.||||||||.||  .|||  
+A-India-6263-    397 GAGATTCGAAATATTCCCCAAGGAAAGTTCATGGCCCAAACA--CAACGT    444
+
+EMBOSS_001       435 AACCAAAGGTGTAACGGCAGCATGCTCCTATGCGGGAGCAAGCAGTTTTT    484
+                     |||||.|||.|||||||||.||||||||.||..|||...|||||||||||
+A-India-6263-    445 AACCAGAGGAGTAACGGCATCATGCTCCCATAAGGGGAAAAGCAGTTTTT    494
+
+EMBOSS_001       485 ACAGAAATTTGCTGTGGCTGACAAAGAAGGGAA---GCTCATACCCAAAG    531
+                     |||||||||||||.||||||||..||||   ||   ||||.||||||||.
+A-India-6263-    495 ACAGAAATTTGCTATGGCTGACGGAGAA---AAATGGCTCGTACCCAAAT    541
+
+EMBOSS_001       532 CTTAGCAAGTCCTATGTGAACAATAAAGGGAAAGAAGTCCTTGTACTATG    581
+                     ||.||||||||||||||||||||.||||.|||||||||||||||||||||
+A-India-6263-    542 CTGAGCAAGTCCTATGTGAACAACAAAGAGAAAGAAGTCCTTGTACTATG    591
+
+EMBOSS_001       582 GGGTGTTCATCATCCGCCTACCGGTACTG-ATCAACAGAGTCTCTATCAG    630
+                     ||||||||||||.|||.|||.| .||..| |.|||.|||...||||||..
+A-India-6263-    592 GGGTGTTCATCACCCGTCTAAC-ATAGAGAACCAAAAGACCATCTATCGT    640
+
+EMBOSS_001       631 AATGCAGATGCTTATGTCTCTGTAGGGTCATCAAAATATAACAGGAGATT    680
+                     ||.|.|.||||||||||||||||||.|||.|||.|.||||||||||||||
+A-India-6263-    641 AAAGAAAATGCTTATGTCTCTGTAGTGTCTTCACATTATAACAGGAGATT    690
+
+EMBOSS_001       681 CACCCCGGAAATAGCAGCGAGACCCAAAGTAAGAGATCAAGCTGGGAGGA    730
+                     ||||||.|||||||||...||||||||||||||||||||||..|||||.|
+A-India-6263-    691 CACCCCAGAAATAGCAAAAAGACCCAAAGTAAGAGATCAAGAAGGGAGAA    740
+
+EMBOSS_001       731 TGAACTATTACTGGACATTACTAGAACCCGGAGACACAATAACATTTGAG    780
+                     |.|||||.||||||||..|.||.||||||||.||||||||||.|||||||
+A-India-6263-    741 TTAACTACTACTGGACTCTGCTGGAACCCGGGGACACAATAATATTTGAG    790
+
+EMBOSS_001       781 GCAACTGGAAATCTAATAGCACCATGGTATGCTTTCGCACTGAATAGAGG    830
+                     ||||.|||||||||||||||.||||||||||||||||||||||.||||||
+A-India-6263-    791 GCAAATGGAAATCTAATAGCGCCATGGTATGCTTTCGCACTGAGTAGAGG    840
+
+EMBOSS_001       831 TTCTGGATCCGGTATCATCACTTCAGACGCACCAGTGCATGATTGTAACA    880
+                     .|.|||.||.||.||||||||.|||.|||||.||.|..||||.|||.||.
+A-India-6263-    841 CTTTGGGTCAGGAATCATCACCTCAAACGCATCAATAGATGAATGTGACG    890
+
+EMBOSS_001       881 CGAAGTGTCAAACACCCCATGGTGCTATAAACAGCAGTCTCCCTTTCCAG    930
+                     |||||||||||||||||||.||.|||||||||||.|||||.|||||||||
+A-India-6263-    891 CGAAGTGTCAAACACCCCAGGGAGCTATAAACAGTAGTCTTCCTTTCCAG    940
+
+EMBOSS_001       931 AATATACATCCAGTCACAATAGGAGAGTGCCCAAAATACGTCAGGAGTAC    980
+                     |||.||||.||||||||||||||||||||||||||.||||||||||||||
+A-India-6263-    941 AATGTACACCCAGTCACAATAGGAGAGTGCCCAAAGTACGTCAGGAGTAC    990
+
+EMBOSS_001       981 CAAATTGAGGATGGCTACAGGACTAAGAAACATTCCATCTATTCAATCCA   1030
+                     .|||||.|||||||.||||||||||||.|||||.|||||.||||||||||
+A-India-6263-    991 AAAATTAAGGATGGTTACAGGACTAAGGAACATCCCATCCATTCAATCCA   1040
+
+EMBOSS_001      1031 GGGGTCTATTTGGAGCCATTGCCGGTTTTATTGAGGGGGGATGGACTGGA   1080
+                     |.|||.|.||||||||||||||||||||.|||||.|||||||||||||||
+A-India-6263-   1041 GAGGTTTGTTTGGAGCCATTGCCGGTTTCATTGAAGGGGGATGGACTGGA   1090
+
+EMBOSS_001      1081 ATGATAGATGGATGGTATGGTTATCATCATCAGAATGAACAGGGATCAGG   1130
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+A-India-6263-   1091 ATGATAGATGGATGGTATGGTTATCATCATCAGAATGAACAGGGATCTGG   1140
+
+EMBOSS_001      1131 CTATGCAGCGGATCAAAAAAGCACACAAAATGCCATTGACGGGATTACAA   1180
+                     ||||||.||||||||||||||||||||||||||||||.||||||||||||
+A-India-6263-   1141 CTATGCTGCGGATCAAAAAAGCACACAAAATGCCATTAACGGGATTACAA   1190
+
+EMBOSS_001      1181 ACAAGGTGAATTCTGTTATCGAGAAAATGAACACCCAATTCACAGCAGTG   1230
+                     ||||||||||.|||||.|||||||||||||||||.|||||||||||.|||
+A-India-6263-   1191 ACAAGGTGAACTCTGTAATCGAGAAAATGAACACTCAATTCACAGCTGTG   1240
+
+EMBOSS_001      1231 GGTAAAGAATTCAACAACTTAGAAAGAAGGATAGAAAATTTAAATAAAAA   1280
+                     |||||||||||||||||.|||||||.||||||.|||||.|||||||||||
+A-India-6263-   1241 GGTAAAGAATTCAACAAATTAGAAAAAAGGATGGAAAACTTAAATAAAAA   1290
+
+EMBOSS_001      1281 AGTCGATGATGGATTTCTGGATATTTGGACATATAATGCAGAATTGTTAG   1330
+                     |||.|||||||||||||||||.||||||||||||||||||||||||||.|
+A-India-6263-   1291 AGTTGATGATGGATTTCTGGACATTTGGACATATAATGCAGAATTGTTGG   1340
+
+EMBOSS_001      1331 TTCTACTGGAAAATGAAAGAACCCTGGATTTCCATGACTCAAATGTAAGG   1380
+                     |||||||||||||||||||.||..|||||||.||||||||||||||.|.|
+A-India-6263-   1341 TTCTACTGGAAAATGAAAGGACTTTGGATTTTCATGACTCAAATGTGAAG   1390
+
+EMBOSS_001      1381 AATCTGTATGAGAAAGTAAAAAGCCAATTAAAGAATAATGCCAAGGAAAT   1430
+                     ||.|||||||||||||||||||||||||||||||||||||||||.|||||
+A-India-6263-   1391 AACCTGTATGAGAAAGTAAAAAGCCAATTAAAGAATAATGCCAAAGAAAT   1440
+
+EMBOSS_001      1431 CGGAAATGGATGTTTTGAGTTCTACCACAAGTGTGACGATGCATGCATGG   1480
+                     .|||||.||.||||||||.|||||||||||||||.||.|||.||||||||
+A-India-6263-   1441 AGGAAACGGGTGTTTTGAATTCTACCACAAGTGTAACAATGAATGCATGG   1490
+
+EMBOSS_001      1481 AAAGTGTAAGAAATGGGACTTATGATTACCCAAAATATTCAGAAGAATCA   1530
+                     |||||||||.||||||.||||||||.||.||||||||||||||.||||||
+A-India-6263-   1491 AAAGTGTAAAAAATGGAACTTATGACTATCCAAAATATTCAGAGGAATCA   1540
+
+EMBOSS_001      1531 AAGTTGAACAGAGAAGAAATAGATGGAGTGAAATTAGAATCAATGGGGGT   1580
+                     |||||.|||||.|||.||||.||||||||||||||.|||||||||||.||
+A-India-6263-   1541 AAGTTAAACAGGGAAAAAATTGATGGAGTGAAATTGGAATCAATGGGAGT   1590
+
+EMBOSS_001      1581 CTATCAGATTCTGGCGATCTACTCAACTGTCGCCAGTTCACTAGTGCTGT   1630
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||.|
+A-India-6263-   1591 CTATCAGATTCTGGCGATCTACTCAACTGTCGCCAGTTCACTGGTGCTTT   1640
+
+EMBOSS_001      1631 TAGTCTCCCTGGGGGCAATCAGCTTCTGGATGTGTTCTAATGGGTCTTTG   1680
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+A-India-6263-   1641 TGGTCTCCCTGGGGGCAATCAGCTTCTGGATGTGTTCTAATGGGTCTTTG   1690
+
+EMBOSS_001      1681 CAGTGCAGAATATGCATTTGA----------------------   1701
+                     |||||||||||||||||.|||                      
+A-India-6263-   1691 CAGTGCAGAATATGCATCTGAGACCAGAATTTCAGAAATATAA   1733
+
+
+#---------------------------------------
+#---------------------------------------

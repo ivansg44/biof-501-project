@@ -1,0 +1,150 @@
+########################################
+# Program: needle
+# Rundate: Sun 21 Nov 2021 15:52:47
+# Commandline: needle
+#    [-asequence] reference/segment-6-reference/segment-6-reference.fasta
+#    [-bsequence] samples/segment-6-samples/A-NewJersey-1976-segment-6.fasta
+#    -sid2 A-NewJersey-1976
+#    -auto
+#    -outfile pairwise-alignments/segment-6-pairwise-alignments/A-NewJersey-1976-segment-6-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-6-pairwise-alignments/A-NewJersey-1976-segment-6-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-NewJersey-1976
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1419
+# Identity:    1237/1419 (87.2%)
+# Similarity:  1237/1419 (87.2%)
+# Gaps:           9/1419 ( 0.6%)
+# Score: 5493.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------ATGAATCCAAATCAAAAAATAATAACCATTGGGTCAATCTG     41
+                              ||||||.|||||||||.||||||||||||||||.|||||||
+A-NewJersey-1      1 GAGTTTAAAATGAATACAAATCAAAGAATAATAACCATTGGGACAATCTG     50
+
+EMBOSS_001        42 TATGGTAGTCGGAATAATTAGCCTAATATTGCAAATAGGGAATATAATCT     91
+                     |.|..||||.|||||||||||.|||.|||||||.|||||.||||||||||
+A-NewJersey-1     51 TCTAATAGTTGGAATAATTAGTCTATTATTGCAGATAGGAAATATAATCT    100
+
+EMBOSS_001        92 CAATATGGGTTAGCCATTCAATTCAAACTGGAAATCAAAACCATCCTGAA    141
+                     ...|||||.|.||||||||||||||.||||||.|..|||.|||||||.|.
+A-NewJersey-1    101 TGTTATGGATGAGCCATTCAATTCAGACTGGAGAAAAAAGCCATCCTAAG    150
+
+EMBOSS_001       142 ACATGCAACCAAAGCATCATTACCTATGAAAATAACACCTGGGTGAATCA    191
+                     ..||||||||||||..||||||||||||||||.|||||.||||||||.||
+A-NewJersey-1    151 GTATGCAACCAAAGTGTCATTACCTATGAAAACAACACATGGGTGAACCA    200
+
+EMBOSS_001       192 AACATATGTTAACATTAGCAATACTAACGTTGTTGCTGGACAGGATGCAA    241
+                     .||.|||||.||||||||||||||.||..|||.|||||||||||.||..|
+A-NewJersey-1    201 GACTTATGTAAACATTAGCAATACCAATATTGCTGCTGGACAGGGTGTGA    250
+
+EMBOSS_001       242 CTTCAGTGATATTAACCGGCAATTCCTCTCTTTGTCCCATCAGTGGGTGG    291
+                     ||.||.|.|||.||.|||||||||||||||||||.||.||||||||||||
+A-NewJersey-1    251 CTCCAATAATACTAGCCGGCAATTCCTCTCTTTGCCCAATCAGTGGGTGG    300
+
+EMBOSS_001       292 GCTATATACAGCAAAGACAATGGCATAAGAATTGGTTCCAAAGGAGACGT    341
+                     |||||||||||||||||||||.|||||||.||||||||||||||||||.|
+A-NewJersey-1    301 GCTATATACAGCAAAGACAATAGCATAAGGATTGGTTCCAAAGGAGACAT    350
+
+EMBOSS_001       342 TTTTGTCATAAGAGAGCCATTTATTTCATGCTCTCACTTGGAATGCAGGA    391
+                     |||||||||.|||||||||||.||||||||||||||||||||||||||.|
+A-NewJersey-1    351 TTTTGTCATGAGAGAGCCATTCATTTCATGCTCTCACTTGGAATGCAGAA    400
+
+EMBOSS_001       392 CCTTTTTTCTGACTCAAGGCGCCTTGCTGAATGACAAGCATTCAAATGGG    441
+                     |||||||||||||.||||||||.|||||||||||||.||||||.|||||.
+A-NewJersey-1    401 CCTTTTTTCTGACCCAAGGCGCTTTGCTGAATGACAGGCATTCTAATGGA    450
+
+EMBOSS_001       442 ACCGTCAAGGACAGAAGCCCCTATAGAACCTTAATGAGCTGCCCTGTTGG    491
+                     ||||||||||||||.||.||.|||||||||||||||||||||||..|.||
+A-NewJersey-1    451 ACCGTCAAGGACAGGAGTCCTTATAGAACCTTAATGAGCTGCCCCATCGG    500
+
+EMBOSS_001       492 TGAAGCTCCGTCTCCGTACAATTCAAGGTTCGAATCGGTTGCTTGGTCAG    541
+                     |||||||||.||||||||||||||||||||||||||.|||||||||||||
+A-NewJersey-1    501 TGAAGCTCCATCTCCGTACAATTCAAGGTTCGAATCAGTTGCTTGGTCAG    550
+
+EMBOSS_001       542 CAAGTGCATGCCATGATGGCATGGGCTGGCTAACAATCGGAATTTCAGGT    591
+                     |||||||||||||||||||.|||||.||||||||||||||.|||||.|||
+A-NewJersey-1    551 CAAGTGCATGCCATGATGGAATGGGATGGCTAACAATCGGGATTTCCGGT    600
+
+EMBOSS_001       592 CCAGATAATGGAGCAGTGGCTGTATTAAAATACAACGGTATAATAACAGA    641
+                     |||||||||||||||||||||||.|||||||||||.||||||||||||||
+A-NewJersey-1    601 CCAGATAATGGAGCAGTGGCTGTTTTAAAATACAATGGTATAATAACAGA    650
+
+EMBOSS_001       642 CACCATCAAAAGTTGGAGGAACAACATATTGAGAACGCAAGAGTCTGAAT    691
+                     .||.||.|||||||||||.|||||.|||||.|||||.|||||||||||||
+A-NewJersey-1    651 TACAATAAAAAGTTGGAGAAACAAAATATTAAGAACACAAGAGTCTGAAT    700
+
+EMBOSS_001       692 GTGCCTGTGTAAATGGTTCATGTTTTACTATAATGACCGATGGCCCAAGT    741
+                     |||..|||.||||.|||||.|||||||||||||||||.||.||||||||.
+A-NewJersey-1    701 GTGTTTGTATAAACGGTTCGTGTTTTACTATAATGACTGACGGCCCAAGC    750
+
+EMBOSS_001       742 AATGGGCAGGCCTCGTACAAAATTTTAAAGATAGAGAAGGGGAAGGTTAC    791
+                     ||||||||.||||||||||||.|.||.||.||.|||||.||||||.|||.
+A-NewJersey-1    751 AATGGGCAAGCCTCGTACAAATTATTCAAAATGGAGAAAGGGAAGATTAT    800
+
+EMBOSS_001       792 TAAATCAATTGAGTTGAATGCACCTAATTACCACTACGAGGAATGTTCCT    841
+                     ||..|||||||||.||.|||||||||||||||||||.||||||||.||||
+A-NewJersey-1    801 TAGGTCAATTGAGCTGGATGCACCTAATTACCACTATGAGGAATGCTCCT    850
+
+EMBOSS_001       842 GTTACCCTGATACAGGTAAAGTGATGTGTGTGTGCAGAGACAATTGGCAT    891
+                     ||||||||||||||||.||||||.||||||||||||||||||||||||||
+A-NewJersey-1    851 GTTACCCTGATACAGGCAAAGTGGTGTGTGTGTGCAGAGACAATTGGCAT    900
+
+EMBOSS_001       892 GGTTCGAATCGACCATGGGTGTCTTTCGATCAAAACCTGGATTATCAAAT    941
+                     |.||||||||||||||||||.|||||||||||.||.||.|||||||||||
+A-NewJersey-1    901 GCTTCGAATCGACCATGGGTCTCTTTCGATCAGAATCTTGATTATCAAAT    950
+
+EMBOSS_001       942 AGGGTACATCTGCAGTGGGGTTTTCGGTGACAATCCGCGTCCCAATGATG    991
+                     |||||||||.||||||||||||||||||||.|||||||||.|.|||||||
+A-NewJersey-1    951 AGGGTACATATGCAGTGGGGTTTTCGGTGATAATCCGCGTTCTAATGATG   1000
+
+EMBOSS_001       992 GAACAGGCAGCTGTGGTCCAGTGTCTTCTAATGGAGCAAATGGAATAAAG   1041
+                     |.|.|||||..|||||.|||||...|||||||||||||||||||.|.|||
+A-NewJersey-1   1001 GGAAAGGCAATTGTGGCCCAGTACTTTCTAATGGAGCAAATGGAGTGAAG   1050
+
+EMBOSS_001      1042 GGATTTTCATTTAGGTATGATAATGGTGTTTGGATAGGAAGAACTAAAAG   1091
+                     ||.|||||||||||.||||..|||||||||||||||||||||||||||||
+A-NewJersey-1   1051 GGGTTTTCATTTAGATATGGCAATGGTGTTTGGATAGGAAGAACTAAAAG   1100
+
+EMBOSS_001      1092 TACCAGTTCCAGAAGCGGGTTTGAGATGATTTGGGATCCTAATGGATGGA   1141
+                     ||.|||.||.|||||.||.|||||||||||||||||||||||||||||||
+A-NewJersey-1   1101 TATCAGCTCTAGAAGTGGATTTGAGATGATTTGGGATCCTAATGGATGGA   1150
+
+EMBOSS_001      1142 CAGAGACTGATAGTAGTTTCTCTGTGAGACAAGATATTGTAGCAATAACT   1191
+                     ||||.||||||||||||||||||.|||..|||||||||.|||||.|||||
+A-NewJersey-1   1151 CAGAAACTGATAGTAGTTTCTCTATGAAGCAAGATATTATAGCATTAACT   1200
+
+EMBOSS_001      1192 GATTGGTCGGGGTACAGCGGGAGTTTCGTTCAACATCCTGAGCTAACAGG   1241
+                     |||||||||||.|||||.||.|||||.||.|||||||||||..|||||||
+A-NewJersey-1   1201 GATTGGTCGGGATACAGTGGAAGTTTTGTCCAACATCCTGAATTAACAGG   1250
+
+EMBOSS_001      1242 GCTGGACTGCATGAGGCCTTGCTTCTGGGTTGAATTAATCAGGGGACAAC   1291
+                     ..||.|||||||.||||||||.||||||||.||.||||||||.||.||||
+A-NewJersey-1   1251 AATGAACTGCATAAGGCCTTGTTTCTGGGTAGAGTTAATCAGAGGGCAAC   1300
+
+EMBOSS_001      1292 CTAAAGAGAATACAATCTGGACTAGTGGGAGCAGCATTTCCTTTTGTGGC   1341
+                     |.||.||||..|||||||||||||||||.|||||||||||.||.||||||
+A-NewJersey-1   1301 CCAAGGAGAGCACAATCTGGACTAGTGGAAGCAGCATTTCTTTCTGTGGC   1350
+
+EMBOSS_001      1342 GTAAATAGTGATACTGTAGGTTGGTCTTGGCCAGACGGTGCTGAGTTGCC   1391
+                     ||.||.||||..||||.|.|.|||||.|||||||||||.|||||..||||
+A-NewJersey-1   1351 GTGAACAGTGGCACTGCAAGCTGGTCATGGCCAGACGGAGCTGATCTGCC   1400
+
+EMBOSS_001      1392 ATTCAGCATTGACAAGTAG   1410
+                     |||||.|||||||||||||
+A-NewJersey-1   1401 ATTCACCATTGACAAGTAG   1419
+
+
+#---------------------------------------
+#---------------------------------------
