@@ -1,0 +1,150 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 16:49:53
+# Commandline: needle
+#    [-asequence] reference/segment-6-reference/segment-6-reference.fasta
+#    [-bsequence] samples/segment-6-samples/A-Alabama-01-2020-segment-6.fasta
+#    -sid2 A-Alabama-01-2020
+#    -auto
+#    -outfile pairwise-alignments/segment-6-pairwise-alignments/A-Alabama-01-2020-segment-6-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-6-pairwise-alignments/A-Alabama-01-2020-segment-6-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-Alabama-01-2020
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1443
+# Identity:    1172/1443 (81.2%)
+# Similarity:  1172/1443 (81.2%)
+# Gaps:          43/1443 ( 3.0%)
+# Score: 4881.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------ATGAATCCAAATCAAAAAATAATAACCATTGGGTCAATCTGT     42
+                             |||||||||||.|||||.||||||||||||||.||.||||||
+A-Alabama-01-      1 AGTTTAAAATGAATCCAAACCAAAAGATAATAACCATTGGCTCTATCTGT     50
+
+EMBOSS_001        43 ATGGTAGTCGGAATAATTAGCCTAATATTGCAAATAGGGAATATAATCTC     92
+                     |||..|.|.|||||...||.|.|||||||.|||||.||.||.||||||||
+A-Alabama-01-     51 ATGACAATTGGAATGGCTAACTTAATATTACAAATTGGAAACATAATCTC    100
+
+EMBOSS_001        93 AATATGGGTTAGCCATTCAATTCAAACTGGAAATCAAAACC--ATCCTGA    140
+                     |||||||||||||||.|||||||||||.||||..||||.||  |||  ||
+A-Alabama-01-    101 AATATGGGTTAGCCACTCAATTCAAACCGGAAGCCAAAGCCAGATC--GA    148
+
+EMBOSS_001       141 AACATGCAACCAAAGCATCATTACCTATGAAAATAACACCTGGGTGAATC    190
+                     |||||||||..|||.|.|||||||.||||||||.||.||.|||||.||||
+A-Alabama-01-    149 AACATGCAATAAAAACGTCATTACTTATGAAAACAATACTTGGGTAAATC    198
+
+EMBOSS_001       191 AAACATATGTTAACATTAGCAATACTAACGTTGTTGCTGGACAGGATGCA    240
+                     |.||||||||||||||.|||||.||.|||..||.||||.|||||...|..
+A-Alabama-01-    199 AGACATATGTTAACATCAGCAACACCAACTCTGCTGCTAGACAGTCAGTG    248
+
+EMBOSS_001       241 ACTTCAGTGATATTAACCGGCAATTCCTCTCTTTGTCCCATCAGTGGGTG    290
+                     .||||.||||.||||.|.||||||||||||||.||.||..|||||||.||
+A-Alabama-01-    249 GCTTCCGTGAAATTAGCGGGCAATTCCTCTCTCTGCCCTGTCAGTGGATG    298
+
+EMBOSS_001       291 GGCTATATACAGCAAAGACAATGGCATAAGAATTGGTTCCAAAGGAGACG    340
+                     ||||||||||||.||||||||..|..|||||||.||||||||.||.||.|
+A-Alabama-01-    299 GGCTATATACAGTAAAGACAACAGTGTAAGAATCGGTTCCAAGGGGGATG    348
+
+EMBOSS_001       341 TTTTTGTCATAAGAGAGCCATTTATTTCATGCTCTCACTTGGAATGCAGG    390
+                     |.|||||||||||.||.|||||.||.||||||||||.||||||||||||.
+A-Alabama-01-    349 TGTTTGTCATAAGGGAACCATTCATATCATGCTCTCCCTTGGAATGCAGA    398
+
+EMBOSS_001       391 ACCTTTTTTCTGACTCAAGGCGCCTTGCTGAATGACAAGCATTCAAATGG    440
+                     |||||.||..||||||||||.||.|||||.||||||||.|||||.|||||
+A-Alabama-01-    399 ACCTTCTTCTTGACTCAAGGGGCTTTGCTAAATGACAAACATTCCAATGG    448
+
+EMBOSS_001       441 GACCGTCAAGGACAGAAGCCCCTATAGAACCTTAATGAGCTGCCCTGTTG    490
+                     .|||.|.||.|||||||||||.|||.|||||.||||||||||.|||.|||
+A-Alabama-01-    449 AACCATTAAAGACAGAAGCCCATATCGAACCCTAATGAGCTGTCCTATTG    498
+
+EMBOSS_001       491 GTGAAGCTCCGTCTCCGTACAATTCAAGGTTCGAATCGGTTGCTTGGTCA    540
+                     ||||||.|||.|||||.|||||.|||||.||.||.||.||.|||||||||
+A-Alabama-01-    499 GTGAAGTTCCCTCTCCATACAACTCAAGATTTGAGTCAGTCGCTTGGTCA    548
+
+EMBOSS_001       541 GCAAGTGCATGCCATGATGGCATGGGC----TGGCTAACAATCGGAATTT    586
+                     ||||||||.||.||||||||||    |    |||||||||||.|||||||
+A-Alabama-01-    549 GCAAGTGCTTGTCATGATGGCA----CCAATTGGCTAACAATTGGAATTT    594
+
+EMBOSS_001       587 CAGGTCCAGATAATGGAGCAGTGGCTGTATTAAAATACAACGGTATAATA    636
+                     |.||.|||||.|.|||.|||||||||||.|||||||||||.||.||||||
+A-Alabama-01-    595 CTGGCCCAGACAGTGGGGCAGTGGCTGTGTTAAAATACAATGGCATAATA    644
+
+EMBOSS_001       637 ACAGACACCATCAAAAGTTGGAGGAACAACATATTGAGAACGCAAGAGTC    686
+                     ||||||||.|||||.||||||||||||||.|||||||||||.||||||||
+A-Alabama-01-    645 ACAGACACTATCAAGAGTTGGAGGAACAATATATTGAGAACACAAGAGTC    694
+
+EMBOSS_001       687 TGAATGTGCCTGTGTAAATGGTTCATGTTTTACTATAATGACCGATGGCC    736
+                     |||||||||.||||||||||||||.||.|||||.||||||||||||||.|
+A-Alabama-01-    695 TGAATGTGCATGTGTAAATGGTTCTTGCTTTACCATAATGACCGATGGAC    744
+
+EMBOSS_001       737 CAAGTAATGGGCAGGCCTCGTACAAAATTTTAAAGATAGAGAAGGGGAAG    786
+                     |||||.||||.||||||||.||||||||.||.|..|||||.|||||.|||
+A-Alabama-01-    745 CAAGTGATGGACAGGCCTCATACAAAATCTTCAGAATAGAAAAGGGAAAG    794
+
+EMBOSS_001       787 GTTACTAAATCAATTGAGTTGAATGCACCTAATTACCACTACGAGGAATG    836
+                     .|.|..||||||.|.||..||||.||.||||||||.|||||.||||||||
+A-Alabama-01-    795 ATAATCAAATCAGTCGAAATGAAAGCCCCTAATTATCACTATGAGGAATG    844
+
+EMBOSS_001       837 TTCCTGTTACCCTGATACAGGTAAAGTGATGTGTGTGTGCAGAGACAATT    886
+                     .|||||||||||||||.|..||.||.|.|..|||||||||||.||.||.|
+A-Alabama-01-    845 CTCCTGTTACCCTGATTCTAGTGAAATCACATGTGTGTGCAGGGATAACT    894
+
+EMBOSS_001       887 GGCATGGTTCGAATCGACCATGGGTGTCTTTCGATCAAAACCTGGATTAT    936
+                     |||||||.|||||||||||.||||||||||||.|.||.||.|||||.||.
+A-Alabama-01-    895 GGCATGGCTCGAATCGACCGTGGGTGTCTTTCAACCAGAATCTGGAATAC    944
+
+EMBOSS_001       937 CAAATAGGGTACATCTGCAGTGGGGTTTTCGGTGACAATCCGCGTCCCAA    986
+                     ||.||.||.|||||.|||||||||||||||||.||||||||.||.||.||
+A-Alabama-01-    945 CAGATGGGATACATATGCAGTGGGGTTTTCGGAGACAATCCACGCCCTAA    994
+
+EMBOSS_001       987 TGATGGAACAGGCAGCTGTGGTCCAGTGTCTTCTAATGGAGCAAATGGAA   1036
+                     ||||..|||||||||.|||||||||||.||.|||||||||||||||||..
+A-Alabama-01-    995 TGATAAAACAGGCAGTTGTGGTCCAGTATCGTCTAATGGAGCAAATGGGG   1044
+
+EMBOSS_001      1037 TAAAGGGATTTTCATTTAGGTATGATAATGGTGTTTGGATAGGAAGAACT   1086
+                     ||||.|||||||||||.|..||.|..|||||||||||||||||.||||||
+A-Alabama-01-   1045 TAAAAGGATTTTCATTCAAATACGGCAATGGTGTTTGGATAGGGAGAACT   1094
+
+EMBOSS_001      1087 AAAAGTACCAGTTCCAGAAGCGGGTTTGAGATGATTTGGGATCCTAATGG   1136
+                     ||.||.|..|||||.||||..||.||||||||||||||||||||.|||||
+A-Alabama-01-   1095 AAGAGCATTAGTTCAAGAAAAGGTTTTGAGATGATTTGGGATCCGAATGG   1144
+
+EMBOSS_001      1137 ATGGACAGAGACTGATAGTAGTTTCTCTGTGAGA----CAAGATATTGTA   1182
+                     ||||||.|.||||||.|.||..|||||    |.|    ||||||||.|||
+A-Alabama-01-   1145 ATGGACTGGGACTGACAATAAATTCTC----AAAAAAGCAAGATATCGTA   1190
+
+EMBOSS_001      1183 GCAATAACTGATTGGTCGGGGTACAGCGGGAGTTTCGTTCAACATCCTGA   1232
+                     |.|||||.|||.|||||.|||||.|||||||||||.|||||.|||||.||
+A-Alabama-01-   1191 GGAATAAATGAGTGGTCAGGGTATAGCGGGAGTTTTGTTCAGCATCCAGA   1240
+
+EMBOSS_001      1233 GCTAACAGGGCTGGACTGCATGAGGCCTTGCTTCTGGGTTGAATTAATCA   1282
+                     .||||||||||||.|.||.||.||.||||||||||||||||||.||||.|
+A-Alabama-01-   1241 ACTAACAGGGCTGAATTGTATAAGACCTTGCTTCTGGGTTGAACTAATAA   1290
+
+EMBOSS_001      1283 GGGGACAACCTAAAGAGAATACAATCTGGACTAGTGGGAGCAGCATTTCC   1332
+                     |.||||.|||..|||||||.||||||||||||||||||||||||||.|||
+A-Alabama-01-   1291 GAGGACGACCCGAAGAGAACACAATCTGGACTAGTGGGAGCAGCATATCC   1340
+
+EMBOSS_001      1333 TTTTGTGGCGTAAATAGTGATACTGTAGGTTGGTCTTGGCCAGACGGTGC   1382
+                     ||||||||.|||.|.|||||.|.|||.|||||||||||||||||||||||
+A-Alabama-01-   1341 TTTTGTGGTGTAGACAGTGACATTGTGGGTTGGTCTTGGCCAGACGGTGC   1390
+
+EMBOSS_001      1383 TGAGTTGCCATTCAGCATTGACAAGTAG---------------   1410
+                     ||||||||||||.|.||||||||||||.               
+A-Alabama-01-   1391 TGAGTTGCCATTTACCATTGACAAGTAATTTGTTCAAAAAACT   1433
+
+
+#---------------------------------------
+#---------------------------------------

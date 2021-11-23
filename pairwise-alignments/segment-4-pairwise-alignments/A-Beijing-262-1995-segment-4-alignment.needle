@@ -1,0 +1,174 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 16:52:21
+# Commandline: needle
+#    [-asequence] reference/segment-4-reference/segment-4-reference.fasta
+#    [-bsequence] samples/segment-4-samples/A-Beijing-262-1995-segment-4.fasta
+#    -sid2 A-Beijing-262-1995
+#    -auto
+#    -outfile pairwise-alignments/segment-4-pairwise-alignments/A-Beijing-262-1995-segment-4-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-4-pairwise-alignments/A-Beijing-262-1995-segment-4-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-Beijing-262-1995
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1740
+# Identity:    1473/1740 (84.7%)
+# Similarity:  1473/1740 (84.7%)
+# Gaps:          56/1740 ( 3.2%)
+# Score: 6372.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGAGGCAAGACTACTGGTCTTGTTATGTGCATTTGCAGCTACAAATGC     50
+                     |||.|.||||.||||||.|||.||||||||.|||||.||||||||.||||
+A-Beijing-262      1 ATGAAAGCAAAACTACTAGTCCTGTTATGTACATTTACAGCTACATATGC     50
+
+EMBOSS_001        51 AGACACAATATGTATAGGCTACCATGCGAATAACTCAACCGACACTGTTG    100
+                     |||||||||||||||||||||||||||.||.|||||||||||||||||||
+A-Beijing-262     51 AGACACAATATGTATAGGCTACCATGCCAACAACTCAACCGACACTGTTG    100
+
+EMBOSS_001       101 ACACAGTACTCGAAAAGAATGTGACCGTGACACACTCTGTTAACCTGCTC    150
+                     ||||||||||.||.|||||||||||.||||||||||||||.|||||.||.
+A-Beijing-262    101 ACACAGTACTTGAGAAGAATGTGACAGTGACACACTCTGTCAACCTACTT    150
+
+EMBOSS_001       151 GAAGACAGCCACAACGGAAAACTATGTAAATTAAAAGGAATAGCCCCATT    200
+                     ||.|||||.|||||.||||||||||||..|.|||||||||||||||||.|
+A-Beijing-262    151 GAGGACAGTCACAATGGAAAACTATGTCTACTAAAAGGAATAGCCCCACT    200
+
+EMBOSS_001       201 ACAATTGGGGAAATGTAATATCGCCGGATGGCTCTTGGGAAACCCGGAAT    250
+                     |||||||||.||.||.|...|.|||||||||.||||.||||||||.||||
+A-Beijing-262    201 ACAATTGGGTAATTGCAGCGTTGCCGGATGGATCTTAGGAAACCCAGAAT    250
+
+EMBOSS_001       251 GCGATTTACTG--CTCACAGCGAGCTCATGGTCCTATATTGTAGAAACAT    298
+                     ||||.|.||||  .||..||..|  |||||||||||.||||||||.|||.
+A-Beijing-262    251 GCGAATCACTGATTTCTAAGGAA--TCATGGTCCTACATTGTAGAGACAC    298
+
+EMBOSS_001       299 CGAACTCAGAGAATGGAACATGTTACCCAGGAGATTTCATCGACTATGAA    348
+                     |.|||.|.|||||||||||||||||||||||..|||||..|||||||||.
+A-Beijing-262    299 CAAACCCTGAGAATGGAACATGTTACCCAGGGTATTTCGCCGACTATGAG    348
+
+EMBOSS_001       349 GAACTGAGGGAGCAATTGAGCTCAGTGTCATCGTTTGAAAAATTCGAAAT    398
+                     ||||||||||||||||||||.|||||.|||||.|||||.|.|||||||||
+A-Beijing-262    349 GAACTGAGGGAGCAATTGAGTTCAGTATCATCATTTGAGAGATTCGAAAT    398
+
+EMBOSS_001       399 ATTTCCC-AAGACAAGCTCGTGGCCCAATCATGAAACAACC---AAAGGT    444
+                     |||.||| |||| ||||||.||||||||.||      .|||   |.|||.
+A-Beijing-262    399 ATTCCCCAAAGA-AAGCTCATGGCCCAACCA------CACCGTAACAGGA    441
+
+EMBOSS_001       445 GTAACGGCAGCATGCTCCTAT-GCGGGAGCAAGCAGTTTTTACAGAAATT    493
+                     |||||||||.||||||||.|| ..|||| .||||||||||||||||||||
+A-Beijing-262    442 GTAACGGCATCATGCTCCCATAATGGGA-AAAGCAGTTTTTACAGAAATT    490
+
+EMBOSS_001       494 TGCTGTGGCTGACAAAGAAGGGAA--GCTCATACCCAAAGCTTAGCAAGT    541
+                     ||||.||||||||..||||  |||  |||..||||||||.||.|||||.|
+A-Beijing-262    491 TGCTATGGCTGACGGAGAA--GAATGGCTTGTACCCAAATCTGAGCAATT    538
+
+EMBOSS_001       542 CCTATGTGAACAATAAAGGGAAAGAAGTCCTTGTACTATGGGGTGTTCAT    591
+                     |||||||||||||.||||.|||||||||||||||||||||||||||||||
+A-Beijing-262    539 CCTATGTGAACAACAAAGAGAAAGAAGTCCTTGTACTATGGGGTGTTCAT    588
+
+EMBOSS_001       592 CATCCGCCTACC----GGTACTGATCAACAGAGTC-TCTATCAGAATGCA    636
+                     ||.||..|||.|    ||    ||.||| ||.|.| |||||||.|..|.|
+A-Beijing-262    589 CACCCATCTAACATAAGG----GACCAA-AGGGCCATCTATCATACAGAA    633
+
+EMBOSS_001       637 GATGCTTATGTCTCTGTAGGGTCATCAAAATATAACAGGAGATTCACCCC    686
+                     .|.||||||||||||||||.|||.|||.|.||||.|||.|||||||||||
+A-Beijing-262    634 AACGCTTATGTCTCTGTAGTGTCTTCACATTATAGCAGAAGATTCACCCC    683
+
+EMBOSS_001       687 GGAAATAGCAGCGAGACCCAAAGTAAGAGATCAAGCTGGGAGGATGAACT    736
+                     .|||||||||...||||||||||||||||.|||.|..||.||.||.||||
+A-Beijing-262    684 AGAAATAGCAAAAAGACCCAAAGTAAGAGGTCAGGAAGGAAGAATCAACT    733
+
+EMBOSS_001       737 ATTACTGGACATTACTAGAACCCGGAGACACAATAACATTTGAGGCAACT    786
+                     |.||||||||..|.||.||||||||.||||||||||.|||||||||||.|
+A-Beijing-262    734 ACTACTGGACTCTGCTGGAACCCGGGGACACAATAATATTTGAGGCAAAT    783
+
+EMBOSS_001       787 GGAAATCTAATAGCACCATGGTATGCTTTCGCACTGAATAGAGGTTCTGG    836
+                     ||||||||||||||.||||||||||||||||||||||.||||||.|.|||
+A-Beijing-262    784 GGAAATCTAATAGCGCCATGGTATGCTTTCGCACTGAGTAGAGGCTTTGG    833
+
+EMBOSS_001       837 ATCCGGTATCATCACTTCAGACGCACCAGTGCATGATTGTAACACGAAGT    886
+                     .||.||.||||||||.|||.|.||||||.||.||||.|||.|..||||||
+A-Beijing-262    834 GTCAGGAATCATCACCTCAAATGCACCAATGAATGAATGTGATGCGAAGT    883
+
+EMBOSS_001       887 GTCAAACACCCCATGGTGCTATAAACAGCAGTCTCCCTTTCCAGAATATA    936
+                     ||||||||||.||.||.|||||||||||.|||||.||||||||||||.||
+A-Beijing-262    884 GTCAAACACCTCAGGGAGCTATAAACAGTAGTCTTCCTTTCCAGAATGTA    933
+
+EMBOSS_001       937 CATCCAGTCACAATAGGAGAGTGCCCAAAATACGTCAGGAGTACCAAATT    986
+                     ||.||||||||||||||||||||.|||||.||.|||||||||||.|||||
+A-Beijing-262    934 CACCCAGTCACAATAGGAGAGTGTCCAAAGTATGTCAGGAGTACAAAATT    983
+
+EMBOSS_001       987 GAGGATGGCTACAGGACTAAGAAACATTCCATCTATTCAATCCAGGGGTC   1036
+                     .|||||||.||||||||||||.||.||.|||||.|||||||||||.|||.
+A-Beijing-262    984 AAGGATGGTTACAGGACTAAGGAATATCCCATCCATTCAATCCAGAGGTT   1033
+
+EMBOSS_001      1037 TATTTGGAGCCATTGCCGGTTTTATTGAGGGGGGATGGACTGGAATGATA   1086
+                     |.||||||||||||||||||||.|||||.|||||.||||||||||||||.
+A-Beijing-262   1034 TGTTTGGAGCCATTGCCGGTTTCATTGAAGGGGGGTGGACTGGAATGATG   1083
+
+EMBOSS_001      1087 GATGGATGGTATGGTTATCATCATCAGAATGAACAGGGATCAGGCTATGC   1136
+                     |||||.||||||||||||||||||||||||||.||.|||||.||||||||
+A-Beijing-262   1084 GATGGGTGGTATGGTTATCATCATCAGAATGAGCAAGGATCTGGCTATGC   1133
+
+EMBOSS_001      1137 AGCGGATCAAAAAAGCACACAAAATGCCATTGACGGGATTACAAACAAGG   1186
+                     .||.|||||||||||||||||||||||||||.|||||||||||||.||||
+A-Beijing-262   1134 TGCAGATCAAAAAAGCACACAAAATGCCATTAACGGGATTACAAATAAGG   1183
+
+EMBOSS_001      1187 TGAATTCTGTTATCGAGAAAATGAACACCCAATTCACAGCAGTGGGTAAA   1236
+                     ||||||||||.||.||||||||||||||.|||||||||||.|||||.|||
+A-Beijing-262   1184 TGAATTCTGTAATTGAGAAAATGAACACTCAATTCACAGCTGTGGGCAAA   1233
+
+EMBOSS_001      1237 GAATTCAACAACTTAGAAAGAAGGATAGAAAATTTAAATAAAAAAGTCGA   1286
+                     |||||||||||.||||||||||||||.|||||.||||||||||||||.||
+A-Beijing-262   1234 GAATTCAACAAATTAGAAAGAAGGATGGAAAACTTAAATAAAAAAGTTGA   1283
+
+EMBOSS_001      1287 TGATGGATTTCTGGATATTTGGACATATAATGCAGAATTGTTAGTTCTAC   1336
+                     ||||||||||||.||.||||||||||||||||||||||||||.|||||||
+A-Beijing-262   1284 TGATGGATTTCTAGACATTTGGACATATAATGCAGAATTGTTGGTTCTAC   1333
+
+EMBOSS_001      1337 TGGAAAATGAAAGAACCCTGGATTTCCATGACTCAAATGTAAGGAATCTG   1386
+                     |||||||||||||.||..||||||||||||||||||||||.|.|||||||
+A-Beijing-262   1334 TGGAAAATGAAAGGACTTTGGATTTCCATGACTCAAATGTGAAGAATCTG   1383
+
+EMBOSS_001      1387 TATGAGAAAGTAAAAAGCCAATTAAAGAATAATGCCAAGGAAATCGGAAA   1436
+                     |||||||||||.||||||||||||||||||||||||||.|||||.||.||
+A-Beijing-262   1384 TATGAGAAAGTGAAAAGCCAATTAAAGAATAATGCCAAAGAAATAGGGAA   1433
+
+EMBOSS_001      1437 TGGATGTTTTGAGTTCTACCACAAGTGTGACGATGCATGCATGGAAAGTG   1486
+                     .||.||||||||.|||||.|||||||||.||.|||.||||||||||||||
+A-Beijing-262   1434 CGGGTGTTTTGAATTCTATCACAAGTGTAACAATGAATGCATGGAAAGTG   1483
+
+EMBOSS_001      1487 TAAGAAATGGGACTTATGATTACCCAAAATATTCAGAAGAATCAAAGTTG   1536
+                     |.|.||||||.||||||||.||.|||||||||||.||||||||||||||.
+A-Beijing-262   1484 TGAAAAATGGAACTTATGACTATCCAAAATATTCCGAAGAATCAAAGTTA   1533
+
+EMBOSS_001      1537 AACAGAGAAGAAATAGATGGAGTGAAATTAGAATCAATGGGGGTCTATCA   1586
+                     |||||.||..||||.||||||||||||||.|||||||||||.||||||||
+A-Beijing-262   1534 AACAGGGAGAAAATTGATGGAGTGAAATTGGAATCAATGGGAGTCTATCA   1583
+
+EMBOSS_001      1587 GATTCTGGCGATCTACTCAACTGTCGCCAGTTCACTAGTGCTGTTAGTCT   1636
+                     ||||||||||||||||||||||||||||||||||||.||.||.||.||||
+A-Beijing-262   1584 GATTCTGGCGATCTACTCAACTGTCGCCAGTTCACTGGTTCTTTTGGTCT   1633
+
+EMBOSS_001      1637 CCCTGGGGGCAATCAGCTTCTGGATGTGTTCTAATGGGTCTTTGCAGTGC   1686
+                     |||||||||||||||||||||||||||||||.|||||||||||||||||.
+A-Beijing-262   1634 CCCTGGGGGCAATCAGCTTCTGGATGTGTTCCAATGGGTCTTTGCAGTGT   1683
+
+EMBOSS_001      1687 AGAATATGCATTTGA-------------------------   1701
+                     |||||||||||.|||                         
+A-Beijing-262   1684 AGAATATGCATCTGAGACCAGAATTTCAGAAATATAAGAA   1723
+
+
+#---------------------------------------
+#---------------------------------------

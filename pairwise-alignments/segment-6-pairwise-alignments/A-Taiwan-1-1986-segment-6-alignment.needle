@@ -1,0 +1,150 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 15:41:46
+# Commandline: needle
+#    [-asequence] reference/segment-6-reference/segment-6-reference.fasta
+#    [-bsequence] samples/segment-6-samples/A-Taiwan-1-1986-segment-6.fasta
+#    -sid2 A-Taiwan-1-1986
+#    -auto
+#    -outfile pairwise-alignments/segment-6-pairwise-alignments/A-Taiwan-1-1986-segment-6-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-6-pairwise-alignments/A-Taiwan-1-1986-segment-6-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-Taiwan-1-1986
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1448
+# Identity:    1252/1448 (86.5%)
+# Similarity:  1252/1448 (86.5%)
+# Gaps:          39/1448 ( 2.7%)
+# Score: 5601.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------ATGAATCCAAATCAAAAAATAATAACCATT     30
+                                         ||||||||||||||.||||||||||||||.
+A-Taiwan-1-19      1 AGCAAAAGCAGGAGTTTAAAATGAATCCAAATCAGAAAATAATAACCATA     50
+
+EMBOSS_001        31 GGGTCAATCTGTATGGTAGTCGGAATAATTAGCCTAATATTGCAAATAGG     80
+                     ||.|||||||||||||.|.|.|||||||||||.|||||||||||||||||
+A-Taiwan-1-19     51 GGATCAATCTGTATGGCAATAGGAATAATTAGTCTAATATTGCAAATAGG    100
+
+EMBOSS_001        81 GAATATAATCTCAATATGGGTTAGCCATTCAATTCAAACTGGAAATCAAA    130
+                     .|||||..|.|||||||||.|.|||||.|||||.||||||||||.|||||
+A-Taiwan-1-19    101 AAATATTGTTTCAATATGGATCAGCCACTCAATCCAAACTGGAAGTCAAA    150
+
+EMBOSS_001       131 ACCATCCTGAAACATGCAACCAAAGCATCATTACCTATGAAAATAACACC    180
+                     ||.|..|||.||.||||||||||||.|||||||||||||||||||.||||
+A-Taiwan-1-19    151 ACTACACTGGAATATGCAACCAAAGAATCATTACCTATGAAAATAGCACC    200
+
+EMBOSS_001       181 TGGGTGAATCAAACATATGTTAACATTAGCAATACTAACGTTGTTGCTGG    230
+                     |||||.|||||||||||||||||.||.|.|||.|||||.|||||||||||
+A-Taiwan-1-19    201 TGGGTAAATCAAACATATGTTAATATCAACAACACTAATGTTGTTGCTGG    250
+
+EMBOSS_001       231 ACAGGATGCAACTTCAGTGATATTAACCGGCAATTCCTCTCTTTGTCCCA    280
+                     ||||||..|||||||||||..||||.||||||||||.|||||||||||.|
+A-Taiwan-1-19    251 ACAGGACACAACTTCAGTGGCATTAGCCGGCAATTCATCTCTTTGTCCTA    300
+
+EMBOSS_001       281 TCAGTGGGTGGGCTATATACAGCAAAGACAATGGCATAAGAATTGGTTCC    330
+                     |||||||||||||||||||||||||||||||..|||||||||||||||||
+A-Taiwan-1-19    301 TCAGTGGGTGGGCTATATACAGCAAAGACAACAGCATAAGAATTGGTTCC    350
+
+EMBOSS_001       331 AAAGGAGACGTTTTTGTCATAAGAGAGCCATTTATTTCATGCTCTCACTT    380
+                     ||||||||.|||||||||||||||||.||.|||||.|||||.||||||||
+A-Taiwan-1-19    351 AAAGGAGATGTTTTTGTCATAAGAGAACCTTTTATATCATGTTCTCACTT    400
+
+EMBOSS_001       381 GGAATGCAGGACCTTTTTTCTGACTCAAGGCGCCTTGCTGAATGACAAGC    430
+                     |||||||||.||||||||||||||.|||||.||..|..|.||||||||||
+A-Taiwan-1-19    401 GGAATGCAGAACCTTTTTTCTGACCCAAGGTGCTCTATTAAATGACAAGC    450
+
+EMBOSS_001       431 ATTCAAATGGGACCGTCAAGGACAGAAGCCCCTATAGAACCTTAATGAGC    480
+                     |||||||.||.|||||.||||||||||||||.|||||..|||||||||||
+A-Taiwan-1-19    451 ATTCAAACGGAACCGTTAAGGACAGAAGCCCTTATAGGGCCTTAATGAGC    500
+
+EMBOSS_001       481 TGCCCTGTTGGTGAAGCTCCGTCTCCGTACAATTCAAGGTTCGAATCGGT    530
+                     ||.|||.|.|||||||||||||||||.||||||||||||||.|||||.||
+A-Taiwan-1-19    501 TGTCCTATAGGTGAAGCTCCGTCTCCCTACAATTCAAGGTTTGAATCAGT    550
+
+EMBOSS_001       531 TGCTTGGTCAGCAAGTGCATGCCATGATGGCATGGGCTGGCTAACAATCG    580
+                     |||||||||||||||.|||||.||||||||||||||||||||||||||.|
+A-Taiwan-1-19    551 TGCTTGGTCAGCAAGCGCATGTCATGATGGCATGGGCTGGCTAACAATTG    600
+
+EMBOSS_001       581 GAATTTCAGGTCCAGATAATGGAGCAGTGGCTGTATTAAAATACAACGGT    630
+                     |||||||.|||||||||.|||||||||||||||||.||||||||||||||
+A-Taiwan-1-19    601 GAATTTCTGGTCCAGATGATGGAGCAGTGGCTGTACTAAAATACAACGGT    650
+
+EMBOSS_001       631 ATAATAACAGACACCATCAAAAGTTGGAGGAA-CAACATATTGAGAACGC    679
+                     ||||||||.||.|||||.|||||||||||||| |.| |||||.|||||.|
+A-Taiwan-1-19    651 ATAATAACTGAAACCATAAAAAGTTGGAGGAAGCGA-ATATTAAGAACAC    699
+
+EMBOSS_001       680 AAGAGTCTGAATGTGCCTGTGTAAATGGTTCATGTTTTACTATAATGACC    729
+                     |||||||||||||||.|||||||||.||||||||||||||.|||||||||
+A-Taiwan-1-19    700 AAGAGTCTGAATGTGTCTGTGTAAACGGTTCATGTTTTACCATAATGACC    749
+
+EMBOSS_001       730 GATGGCCCAAGTAATGGGCAGGCCTCGTACAAAATTTTAAAGATAGAGAA    779
+                     ||||||||.|.||||||||..||||||||||||||.||.||.||.|||||
+A-Taiwan-1-19    750 GATGGCCCGAATAATGGGCCTGCCTCGTACAAAATCTTCAAAATCGAGAA    799
+
+EMBOSS_001       780 GGGGAAGGTTACTAAATCAATTGAGTTGAATGCACCTAATTACCACTACG    829
+                     |||||||.|||||||||||||.||||||.|||||||.||||..||.||||
+A-Taiwan-1-19    800 GGGGAAGATTACTAAATCAATAGAGTTGGATGCACCCAATTCTCATTACG    849
+
+EMBOSS_001       830 AGGAATGTTCCTGTTACCCTGATACAGGTAAAGTGATGTGTGTGTGCAGA    879
+                     |||||||||||||||||||.||..|.||.|.|||||||||||||||||||
+A-Taiwan-1-19    850 AGGAATGTTCCTGTTACCCAGACGCCGGCACAGTGATGTGTGTGTGCAGA    899
+
+EMBOSS_001       880 GACAATTGGCATGGTTCGAATCGACCATGGGTGTCTTTCGATCAAAACCT    929
+                     ||||||||||||||||||||||||||.|||||||||||..||||||||||
+A-Taiwan-1-19    900 GACAATTGGCATGGTTCGAATCGACCTTGGGTGTCTTTTAATCAAAACCT    949
+
+EMBOSS_001       930 GGATTATCAAATAGGGTACATCTGCAGTGGGGTTTTCGGTGACAATCCGC    979
+                     |||||||||||||||.||||||||||||||.|||||.|||||||||||||
+A-Taiwan-1-19    950 GGATTATCAAATAGGATACATCTGCAGTGGTGTTTTTGGTGACAATCCGC    999
+
+EMBOSS_001       980 GTCCCAATGATGGAACAGGCAGCTGTGGTCCAGTGTCTTCTAATGGAGCA   1029
+                     |||||||.|||||||.||||||||||||||||||..||..|.||||||||
+A-Taiwan-1-19   1000 GTCCCAAAGATGGAAAAGGCAGCTGTGGTCCAGTAACTGTTGATGGAGCA   1049
+
+EMBOSS_001      1030 AATGGAATAAAGGGATTTTCATTTAGGTATGATAATGGTGTTTGGATAGG   1079
+                     .|.|||.|||||||.|||||||..|||||||.||||||||||||||||||
+A-Taiwan-1-19   1050 GACGGAGTAAAGGGGTTTTCATACAGGTATGGTAATGGTGTTTGGATAGG   1099
+
+EMBOSS_001      1080 AAGAACTAAAAGTACCAGTTCCAGAAGCGGGTTTGAGATGATTTGGGATC   1129
+                     |||.||||||||||.|||.||||||||.||.|||||||||||||||||||
+A-Taiwan-1-19   1100 AAGGACTAAAAGTAACAGCTCCAGAAGAGGATTTGAGATGATTTGGGATC   1149
+
+EMBOSS_001      1130 CTAATGGATGGACAGAGACTGATAGTAGTTTCTCTGTGAGACAAGATATT   1179
+                     ||||||||||||||||.||.|||||||..||||..||||.|||.|||.|.
+A-Taiwan-1-19   1150 CTAATGGATGGACAGATACCGATAGTAAATTCTTAGTGAAACAGGATGTA   1199
+
+EMBOSS_001      1180 GTAGCAATAACTGATTGGTCGGGGTACAGCGGGAGTTTCGTTCAACATCC   1229
+                     ||.|||||.|||||||||||.|||||||||||.||.||||||||||||||
+A-Taiwan-1-19   1200 GTGGCAATGACTGATTGGTCAGGGTACAGCGGAAGCTTCGTTCAACATCC   1249
+
+EMBOSS_001      1230 TGAGCTAACAGGGCTGGACTGCATGAGGCCTTGCTTCTGGGTTGAATTAA   1279
+                     |||.||||||||..||||.||.||||||||||||||||||||||||||.|
+A-Taiwan-1-19   1250 TGAACTAACAGGATTGGATTGTATGAGGCCTTGCTTCTGGGTTGAATTGA   1299
+
+EMBOSS_001      1280 TCAGGGGACAACCTAAAGAGAAT---ACAATCTGGACTAGTGGGAGCAGC   1326
+                     ||||.||||.|||||.|||.|||   ||||||||||||||||||||||||
+A-Taiwan-1-19   1300 TCAGAGGACGACCTAGAGAAAATACAACAATCTGGACTAGTGGGAGCAGC   1349
+
+EMBOSS_001      1327 ATTTCCTTTTGTGGCGTAAATAGTGATACTGTAGGTTGGTCTTGGCCAGA   1376
+                     |||||.|||||||||||.|||.|||||||||.|..|||||||||||||||
+A-Taiwan-1-19   1350 ATTTCTTTTTGTGGCGTGAATGGTGATACTGCAAATTGGTCTTGGCCAGA   1399
+
+EMBOSS_001      1377 CGGTGCTGAGTTGCCATTCAGCATTGACAAGTAG--------------   1410
+                     ||||||.|||||||||||||.|||||||||||||              
+A-Taiwan-1-19   1400 CGGTGCCGAGTTGCCATTCACCATTGACAAGTAGTTCGTTGAAAAAAA   1447
+
+
+#---------------------------------------
+#---------------------------------------

@@ -8,7 +8,13 @@ SAMPLES = [
     "A-NewJersey-1976",
     "A-USSR-92-1977",
     "A-India-6263-1980",
-    "A-California-07-2009"
+    "A-Taiwan-1-1986",
+    "A-Texas-36-91",
+    "A-Beijing-262-1995",
+    "A-NewYork-222-2003",
+    "A-California-07-2009",
+    "A-Alabama-13-2015",
+    "A-Alabama-01-2020"
 ]
 
 rule all:

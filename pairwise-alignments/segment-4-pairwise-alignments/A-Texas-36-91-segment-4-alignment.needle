@@ -1,0 +1,178 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 15:52:19
+# Commandline: needle
+#    [-asequence] reference/segment-4-reference/segment-4-reference.fasta
+#    [-bsequence] samples/segment-4-samples/A-Texas-36-91-segment-4.fasta
+#    -sid2 A-Texas-36-91
+#    -auto
+#    -outfile pairwise-alignments/segment-4-pairwise-alignments/A-Texas-36-91-segment-4-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-4-pairwise-alignments/A-Texas-36-91-segment-4-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-Texas-36-91
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1763
+# Identity:    1488/1763 (84.4%)
+# Similarity:  1488/1763 (84.4%)
+# Gaps:          76/1763 ( 4.3%)
+# Score: 6497.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------------ATGGAGGCAAGACTACTGGTCTTGTTATGTG     31
+                                        |||.|.||||.||||||.|||.|||||||||
+A-Texas-36-91      1 GAAAATAAAAACAACCAAAATGAAAGCAAAACTACTAGTCCTGTTATGTG     50
+
+EMBOSS_001        32 CATTTGCAGCTACAAATGCAGACACAATATGTATAGGCTACCATGCGAAT     81
+                     |||||.||||||||.||||||||||||||||||||||||||||||||||.
+A-Texas-36-91     51 CATTTACAGCTACATATGCAGACACAATATGTATAGGCTACCATGCGAAC    100
+
+EMBOSS_001        82 AACTCAACCGACACTGTTGACACAGTACTCGAAAAGAATGTGACCGTGAC    131
+                     |||||||||||||||||||||||||||||.||.|||||.|||||.|||||
+A-Texas-36-91    101 AACTCAACCGACACTGTTGACACAGTACTTGAGAAGAACGTGACAGTGAC    150
+
+EMBOSS_001       132 ACACTCTGTTAACCTGCTCGAAGACAGCCACAACGGAAAACTATGTAAAT    181
+                     |||||||||.|||||.||.||.|||||.||||||||||||||||||..|.
+A-Texas-36-91    151 ACACTCTGTCAACCTACTTGAGGACAGTCACAACGGAAAACTATGTCGAC    200
+
+EMBOSS_001       182 TAAAAGGAATAGCCCCATTACAATTGGGGAAATGTAATATCGCCGGATGG    231
+                     ||||.||||||||||||.||||||||||.||.||.|...|.|||||||||
+A-Texas-36-91    201 TAAAGGGAATAGCCCCACTACAATTGGGTAATTGCAGCGTTGCCGGATGG    250
+
+EMBOSS_001       232 CTCTTGGGAAACCCGGAATGCGATTTACTG--CTCACAGCGAGCTCATGG    279
+                     .||||.||||||||..|||||||.|.||||  .||..||..|  ||||||
+A-Texas-36-91    251 ATCTTAGGAAACCCAAAATGCGAATCACTGTTTTCTAAGGAA--TCATGG    298
+
+EMBOSS_001       280 TCCTATATTGTAGAAACATCGAACTCAGAGAATGGAACATGTTACCCAGG    329
+                     |||||.||||.|||||||.|.|||.|.|||||||||||||||||||||||
+A-Texas-36-91    299 TCCTACATTGCAGAAACACCAAACCCTGAGAATGGAACATGTTACCCAGG    348
+
+EMBOSS_001       330 AGATTTCATCGACTATGAAGAACTGAGGGAGCAATTGAGCTCAGTGTCAT    379
+                     ..|||||..|||||||||.||||||||||||||||||||.|||||.||||
+A-Texas-36-91    349 GTATTTCGCCGACTATGAGGAACTGAGGGAGCAATTGAGTTCAGTATCAT    398
+
+EMBOSS_001       380 CGTTTGAAAAATTCGAAATATTTCCC-AAGACAAGCTCGTGGCCCAATCA    428
+                     |.||.||.|.||||||||||||.||| |||| ||||||.||||||||.| 
+A-Texas-36-91    399 CATTCGAGAGATTCGAAATATTCCCCAAAGA-AAGCTCATGGCCCAACC-    446
+
+EMBOSS_001       429 TGAAAC---AACCAAAGGTGTAACGGCAGCATGCTCCTAT-GCGGGAGCA    474
+                       |.||   |||||||||.||||||.||.||||||||.|| ..|||| .|
+A-Texas-36-91    447 --ACACCGTAACCAAAGGAGTAACGACATCATGCTCCCATAATGGGA-AA    493
+
+EMBOSS_001       475 AGCAGTTTTTACAGAAATTTGCTGTGGCTGACAAAGAAGGGAA--GCTCA    522
+                     |||||||||||||||||||||||.||||||||..||||  |||  |||..
+A-Texas-36-91    494 AGCAGTTTTTACAGAAATTTGCTATGGCTGACGGAGAA--GAATGGCTTG    541
+
+EMBOSS_001       523 TACCCAAAGCTTAGCAAGTCCTATGTGAACAATAAAGGGAAAGAAGTCCT    572
+                     ||||||||.||.||||||||||||||.|||||.||||.||||||||||||
+A-Texas-36-91    542 TACCCAAATCTGAGCAAGTCCTATGTAAACAACAAAGAGAAAGAAGTCCT    591
+
+EMBOSS_001       573 TGTACTATGGGGTGTTCATCATCCGCCTACC----GGTACTGATCAACAG    618
+                     |||||||||||||||||||||.|||.|||.|    ||    ||.||| ||
+A-Texas-36-91    592 TGTACTATGGGGTGTTCATCACCCGTCTAACATAAGG----GACCAA-AG    636
+
+EMBOSS_001       619 AGTC-TCTATCAGAATGCAGATGCTTATGTCTCTGTAGGGTCATCAAAAT    667
+                     .|.| |||||||.|..|.|.||||||||||||||||||.|||.|||.|.|
+A-Texas-36-91    637 GGCCATCTATCATACAGAAAATGCTTATGTCTCTGTAGTGTCTTCACATT    686
+
+EMBOSS_001       668 ATAACAGGAGATTCACCCCGGAAATAGCAGCGAGACCCAAAGTAAGAGAT    717
+                     |||.|||.|||||||||||.|||||||||...||||||||||||||||||
+A-Texas-36-91    687 ATAGCAGAAGATTCACCCCAGAAATAGCAAAAAGACCCAAAGTAAGAGAT    736
+
+EMBOSS_001       718 CAAGCTGGGAGGATGAACTATTACTGGACATTACTAGAACCCGGAGACAC    767
+                     ||||..||.||.||.|||||.||||||||..|.||.||||||||.|||||
+A-Texas-36-91    737 CAAGAAGGAAGAATTAACTACTACTGGACTCTGCTGGAACCCGGGGACAC    786
+
+EMBOSS_001       768 AATAACATTTGAGGCAACTGGAAATCTAATAGCACCATGGTATGCTTTCG    817
+                     |||||.|||||||||||.|||||||||||||||.||||||||||||||||
+A-Texas-36-91    787 AATAATATTTGAGGCAAATGGAAATCTAATAGCGCCATGGTATGCTTTCG    836
+
+EMBOSS_001       818 CACTGAATAGAGGTTCTGGATCCGGTATCATCACTTCAGACGCACCAGTG    867
+                     ||||||.||||||.|.|||.||.||.||||||||.|||.|||||.||.||
+A-Texas-36-91    837 CACTGAGTAGAGGCTTTGGGTCAGGAATCATCACCTCAAACGCATCAATG    886
+
+EMBOSS_001       868 CATGATTGTAACACGAAGTGTCAAACACCCCATGGTGCTATAAACAGCAG    917
+                     .||||.|||.||.|||||||||||||||||||.||.|||||||||||.||
+A-Texas-36-91    887 GATGAATGTGACGCGAAGTGTCAAACACCCCAGGGAGCTATAAACAGTAG    936
+
+EMBOSS_001       918 TCTCCCTTTCCAGAATATACATCCAGTCACAATAGGAGAGTGCCCAAAAT    967
+                     |||.||||||||||||.||||.||||||||||||||||||||.|||||.|
+A-Texas-36-91    937 TCTTCCTTTCCAGAATGTACACCCAGTCACAATAGGAGAGTGTCCAAAGT    986
+
+EMBOSS_001       968 ACGTCAGGAGTACCAAATTGAGGATGGCTACAGGACTAAGAAACATTCCA   1017
+                     |.|||||||||||.|||||.|||||||.||||||||||||.|||||.|||
+A-Texas-36-91    987 ATGTCAGGAGTACAAAATTAAGGATGGTTACAGGACTAAGGAACATCCCA   1036
+
+EMBOSS_001      1018 TCTATTCAATCCAGGGGTCTATTTGGAGCCATTGCCGGTTTTATTGAGGG   1067
+                     ||.|||||||||||.|||.|.||||||||||||||||||||.|||||.||
+A-Texas-36-91   1037 TCCATTCAATCCAGAGGTTTGTTTGGAGCCATTGCCGGTTTCATTGAAGG   1086
+
+EMBOSS_001      1068 GGGATGGACTGGAATGATAGATGGATGGTATGGTTATCATCATCAGAATG   1117
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+A-Texas-36-91   1087 GGGGTGGACTGGAATGATAGATGGATGGTATGGTTATCATCATCAGAATG   1136
+
+EMBOSS_001      1118 AACAGGGATCAGGCTATGCAGCGGATCAAAAAAGCACACAAAATGCCATT   1167
+                     ||||.|||||.||||||||.|||||.||||||||||||||||||||||||
+A-Texas-36-91   1137 AACAAGGATCTGGCTATGCTGCGGACCAAAAAAGCACACAAAATGCCATT   1186
+
+EMBOSS_001      1168 GACGGGATTACAAACAAGGTGAATTCTGTTATCGAGAAAATGAACACCCA   1217
+                     .||||||||||||||||||||||||||||.|||||||||||||||||.||
+A-Texas-36-91   1187 AACGGGATTACAAACAAGGTGAATTCTGTAATCGAGAAAATGAACACTCA   1236
+
+EMBOSS_001      1218 ATTCACAGCAGTGGGTAAAGAATTCAACAACTTAGAAAGAAGGATAGAAA   1267
+                     |||||||||.|||||.||||||||||||||.||||||||||||||.||||
+A-Texas-36-91   1237 ATTCACAGCTGTGGGCAAAGAATTCAACAAATTAGAAAGAAGGATGGAAA   1286
+
+EMBOSS_001      1268 ATTTAAATAAAAAAGTCGATGATGGATTTCTGGATATTTGGACATATAAT   1317
+                     |.||||||||||||||.|||||||||||||||||.|||||||||||||||
+A-Texas-36-91   1287 ACTTAAATAAAAAAGTTGATGATGGATTTCTGGACATTTGGACATATAAT   1336
+
+EMBOSS_001      1318 GCAGAATTGTTAGTTCTACTGGAAAATGAAAGAACCCTGGATTTCCATGA   1367
+                     |||||||||||.||||||||||||||||.|||.||..|||||||.|||||
+A-Texas-36-91   1337 GCAGAATTGTTGGTTCTACTGGAAAATGGAAGGACTTTGGATTTTCATGA   1386
+
+EMBOSS_001      1368 CTCAAATGTAAGGAATCTGTATGAGAAAGTAAAAAGCCAATTAAAGAATA   1417
+                     |||||||||.|.||||||||||||||||||||||||||||||.|||||||
+A-Texas-36-91   1387 CTCAAATGTGAAGAATCTGTATGAGAAAGTAAAAAGCCAATTGAAGAATA   1436
+
+EMBOSS_001      1418 ATGCCAAGGAAATCGGAAATGGATGTTTTGAGTTCTACCACAAGTGTGAC   1467
+                     |||||||.|||||.||.||.||.||||||||.|||||.|||||||||.||
+A-Texas-36-91   1437 ATGCCAAAGAAATAGGGAACGGGTGTTTTGAATTCTATCACAAGTGTAAC   1486
+
+EMBOSS_001      1468 GATGCATGCATGGAAAGTGTAAGAAATGGGACTTATGATTACCCAAAATA   1517
+                     .|||.|||||||||||||||.|.||||||.||||||||.||.||||||||
+A-Texas-36-91   1487 AATGAATGCATGGAAAGTGTGAAAAATGGAACTTATGACTATCCAAAATA   1536
+
+EMBOSS_001      1518 TTCAGAAGAATCAAAGTTGAACAGAGAAGAAATAGATGGAGTGAAATTAG   1567
+                     |||.||||||||||||||.|||||.|.|.||||.||||||||||||||.|
+A-Texas-36-91   1537 TTCCGAAGAATCAAAGTTAAACAGGGGAAAAATTGATGGAGTGAAATTGG   1586
+
+EMBOSS_001      1568 AATCAATGGGGGTCTATCAGATTCTGGCGATCTACTCAACTGTCGCCAGT   1617
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+A-Texas-36-91   1587 AATCAATGGGAGTCTATCAGATTCTGGCGATCTACTCAACTGTCGCCAGT   1636
+
+EMBOSS_001      1618 TCACTAGTGCTGTTAGTCTCCCTGGGGGCAATCAGCTTCTGGATGTGTTC   1667
+                     |||||.|||||.||.|||||||||||||||||||||||||||||||||||
+A-Texas-36-91   1637 TCACTGGTGCTTTTGGTCTCCCTGGGGGCAATCAGCTTCTGGATGTGTTC   1686
+
+EMBOSS_001      1668 TAATGGGTCTTTGCAGTGCAGAATATGCATTTGA----------------   1701
+                     ||||||||||||||||||.|||||||||||.|||                
+A-Texas-36-91   1687 TAATGGGTCTTTGCAGTGTAGAATATGCATCTGAGACCAGAATTTCAGAA   1736
+
+EMBOSS_001      1701 -------------   1701
+                                  
+A-Texas-36-91   1737 ATATAAGAAAAAA   1749
+
+
+#---------------------------------------
+#---------------------------------------

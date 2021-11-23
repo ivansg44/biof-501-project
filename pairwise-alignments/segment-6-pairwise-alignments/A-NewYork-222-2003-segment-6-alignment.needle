@@ -1,0 +1,154 @@
+########################################
+# Program: needle
+# Rundate: Mon 22 Nov 2021 17:04:42
+# Commandline: needle
+#    [-asequence] reference/segment-6-reference/segment-6-reference.fasta
+#    [-bsequence] samples/segment-6-samples/A-NewYork-222-2003-segment-6.fasta
+#    -sid2 A-NewYork-222-2003
+#    -auto
+#    -outfile pairwise-alignments/segment-6-pairwise-alignments/A-NewYork-222-2003-segment-6-alignment.needle
+# Align_format: srspair
+# Report_file: pairwise-alignments/segment-6-pairwise-alignments/A-NewYork-222-2003-segment-6-alignment.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: A-NewYork-222-2003
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1453
+# Identity:    1225/1453 (84.3%)
+# Similarity:  1225/1453 (84.3%)
+# Gaps:          47/1453 ( 3.2%)
+# Score: 5348.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------ATGAATCCAAATCAAAAAATAATAACCATTGGGTCAATCTGTA     43
+                            ||||||||||||||||||||||||||||||||.||||||.|||
+A-NewYork-222      1 GTTTAAAATGAATCCAAATCAAAAAATAATAACCATTGGATCAATCAGTA     50
+
+EMBOSS_001        44 TGGTAGTCGGAATAATTAGCCTAATATTGCAAATAGGGAATATAATCTCA     93
+                     |.|.|.|||||||||||||.|||||.|||||||||||.|||||.||.|||
+A-NewYork-222     51 TAGCAATCGGAATAATTAGTCTAATGTTGCAAATAGGAAATATTATTTCA    100
+
+EMBOSS_001        94 ATATGGGTTAGCCATTCAATTCAAACTGGAAATCAAAACCATCCTGAAAC    143
+                     |||||||.|||.||.|||||.||||||||||.|||||||||..|||.||.
+A-NewYork-222    101 ATATGGGCTAGTCACTCAATCCAAACTGGAAGTCAAAACCACACTGGAAT    150
+
+EMBOSS_001       144 ATGCAACCAAAGCATCATTACCTATGAAAATAACACCTGGGTGAATCAAA    193
+                     ||||||||||||.|||||.||.||||||||.|.|||||||||||||||.|
+A-NewYork-222    151 ATGCAACCAAAGAATCATCACATATGAAAACAGCACCTGGGTGAATCACA    200
+
+EMBOSS_001       194 CATATGTTAACATTAGCAATACTAACGTTGTTGCTGGACAGGATGCAACT    243
+                     ||||||||||.||||.|||.|||||.||||||||||||.||||...||||
+A-NewYork-222    201 CATATGTTAATATTAACAACACTAATGTTGTTGCTGGAAAGGACAAAACT    250
+
+EMBOSS_001       244 TCAGTGATATTAACCGGCAATTCCTCTCTTTGTCCCATCAGTGGGTGGGC    293
+                     |||||||.|||..||||||||||.|||||||||.|.||||||||.|||||
+A-NewYork-222    251 TCAGTGACATTGGCCGGCAATTCATCTCTTTGTTCTATCAGTGGATGGGC    300
+
+EMBOSS_001       294 TATATACAGCAAAGACAATGGCATAAGAATTGGTTCCAAAGGAGACGTTT    343
+                     ||||||||..||||||||..|||||||||||||.|||||||||||.||||
+A-NewYork-222    301 TATATACACAAAAGACAACAGCATAAGAATTGGCTCCAAAGGAGATGTTT    350
+
+EMBOSS_001       344 TTGTCATAAGAGAGCCATTTATTTCATGCTCTCACTTGGAATGCAGGACC    393
+                     |||||||||||||.||.||.||.|||||.|||||||||||||||||.|||
+A-NewYork-222    351 TTGTCATAAGAGAACCTTTCATATCATGTTCTCACTTGGAATGCAGAACC    400
+
+EMBOSS_001       394 TTTTTTCTGACTCAAGGCGCCTTGCTGAATGACAAGCATTCAAATGGGAC    443
+                     |||||||||||.|||||.||..|..|.||||||||.|||||||||||.||
+A-NewYork-222    401 TTTTTTCTGACCCAAGGTGCTCTATTAAATGACAAACATTCAAATGGAAC    450
+
+EMBOSS_001       444 CGTCAAGGACAGAAGCCCCTATAGAACCTTAATGAGCTGCCCTGTTGGTG    493
+                     |||.|||||||||||.||.|||||..|||||||||||||.|||.|.||||
+A-NewYork-222    451 CGTTAAGGACAGAAGTCCTTATAGGGCCTTAATGAGCTGTCCTCTAGGTG    500
+
+EMBOSS_001       494 AAGCTCCGTCTCCGTACAATTCAAGGTTCGAATCGGTTGCTTGGTCAGCA    543
+                     ||||||||||.||.||||||||||.|||.|||||.|||||.|||||||||
+A-NewYork-222    501 AAGCTCCGTCCCCATACAATTCAAAGTTTGAATCAGTTGCATGGTCAGCA    550
+
+EMBOSS_001       544 AGTGCATGCCATGATGGCATGGGCTGGCTAACAATCGGAATTTCAGGTCC    593
+                     ||.||||||||||||||||||||||||.||||||||||||||||.|||||
+A-NewYork-222    551 AGCGCATGCCATGATGGCATGGGCTGGTTAACAATCGGAATTTCTGGTCC    600
+
+EMBOSS_001       594 AGATAATGGAGCAGTGGCTGTATTAAAATACAACGGTATAATAACAGACA    643
+                     |||.||||||||.|||||||||.|||||||||||||.||||||||.||.|
+A-NewYork-222    601 AGACAATGGAGCTGTGGCTGTACTAAAATACAACGGAATAATAACTGAAA    650
+
+EMBOSS_001       644 CCATCAAAAGTTGGAGGAACAAC--ATATTGAGAACGCAAGAGTCTGAAT    691
+                     ||||.||||||||||  ||.|.|  |||||||||||.|||||||||||||
+A-NewYork-222    651 CCATAAAAAGTTGGA--AAAAGCGAATATTGAGAACACAAGAGTCTGAAT    698
+
+EMBOSS_001       692 GTGCCTGTGTAAATGGTTCATGTTTTACTATAATGACCGATGGCCCAAGT    741
+                     |||.||||||.||.||.||||||||.||.|||||||||||||||||.|||
+A-NewYork-222    699 GTGTCTGTGTGAACGGGTCATGTTTCACCATAATGACCGATGGCCCGAGT    748
+
+EMBOSS_001       742 AATGGGCAGGCCTCGTACAAAATTTTAAAGATAGAGAAGGGGAAGGTTAC    791
+                     ||||||...||||||||||||||.||.|||||.||.||||||||||||||
+A-NewYork-222    749 AATGGGGCCGCCTCGTACAAAATCTTCAAGATCGAAAAGGGGAAGGTTAC    798
+
+EMBOSS_001       792 TAAATCAATTGAGTTGAATGCACCTAATTACCACTACGAGGAATGTTCCT    841
+                     |||||||||.||||||||||||||.||||..||.||.|||||||||||||
+A-NewYork-222    799 TAAATCAATAGAGTTGAATGCACCCAATTTTCATTATGAGGAATGTTCCT    848
+
+EMBOSS_001       842 GTTACCCTGATACAGGTAAAGTGATGTGTGTGTGCAGAGACAATTGGCAT    891
+                     |||||||.||.||.||.|.||||||||||||.|||||.|||||.||||||
+A-NewYork-222    849 GTTACCCAGACACTGGCACAGTGATGTGTGTATGCAGGGACAACTGGCAT    898
+
+EMBOSS_001       892 GGTTCGAATCGACCATGGGTGTCTTTCGATCAAAACCTGGATTATCAAAT    941
+                     |||||.||||||||.|||||||||||..||||||||.|||||||||||||
+A-NewYork-222    899 GGTTCAAATCGACCTTGGGTGTCTTTTAATCAAAACTTGGATTATCAAAT    948
+
+EMBOSS_001       942 AGGGTACATCTGCAGTGGGGTTTTCGGTGACAATCCGCGTCCCAATGATG    991
+                     |||.||||||||||||||.||.|||||||||||||||||||||||.||||
+A-NewYork-222    949 AGGATACATCTGCAGTGGAGTGTTCGGTGACAATCCGCGTCCCAAAGATG    998
+
+EMBOSS_001       992 GAACAGGCAGCTGTGGTCCAGTGTCTTCTAATGGAGCAAATGGAATAAAG   1041
+                     |||..|||||||||..|||||||.||..|.||||||||.|.|||.|.|||
+A-NewYork-222    999 GAAAGGGCAGCTGTAATCCAGTGACTGTTGATGGAGCAGACGGAGTTAAG   1048
+
+EMBOSS_001      1042 GGATTTTCATTTAGGTATGATAATGGTGTTTGGATAGGAAGAACTAAAAG   1091
+                     ||.|||||||..|..||||.|||||||||||||||||||||.||||||||
+A-NewYork-222   1049 GGGTTTTCATACAAATATGGTAATGGTGTTTGGATAGGAAGGACTAAAAG   1098
+
+EMBOSS_001      1092 TACCAG--TTCCAGAAGCGGGTTTGAGATGATTTGGGATCCTAATGGATG   1139
+                     ||.|||  ||  ||||..||||||||||||||||||||||||||||||||
+A-NewYork-222   1099 TAACAGACTT--AGAAAGGGGTTTGAGATGATTTGGGATCCTAATGGATG   1146
+
+EMBOSS_001      1140 GACAGAGACTGATAGTAGTTTCTCTGTGAGACAAGATATTGTAGCAATAA   1189
+                     ||||||.||.||.|||..||||||.||||.|||.|||.||||.|||||||
+A-NewYork-222   1147 GACAGATACCGACAGTGATTTCTCAGTGAAACAGGATGTTGTGGCAATAA   1196
+
+EMBOSS_001      1190 CTGATTGGTCGGGGTACAGCGGGAGTTTCGTTCAACATCCTGAGCTAACA   1239
+                     ||||||||||.|||||||||||.|||||||||||||||||||||.|||||
+A-NewYork-222   1197 CTGATTGGTCAGGGTACAGCGGAAGTTTCGTTCAACATCCTGAGTTAACA   1246
+
+EMBOSS_001      1240 GGGCTGGACTGCATGAGGCCTTGCTTCTGGGTTGAATTAATCAGGGGACA   1289
+                     ||..|||||||.||.||.|||||||||||||||||.|||.||||.||||.
+A-NewYork-222   1247 GGATTGGACTGTATAAGACCTTGCTTCTGGGTTGAGTTAGTCAGAGGACT   1296
+
+EMBOSS_001      1290 ACCTAAAGAGAAT---ACAATCTGGACTAGTGGGAGCAGCATTTCCTTTT   1336
+                     .||||.|||.|||   |||||||||||||||||||||||||||||.||||
+A-NewYork-222   1297 GCCTAGAGAAAATACAACAATCTGGACTAGTGGGAGCAGCATTTCTTTTT   1346
+
+EMBOSS_001      1337 GTGGCGTAAATAGTGATACTGTAGGTTGGTCTTGGCCAGACGGTGCTGAG   1386
+                     |||||||..||||||||||||.|...||||||||||||||||||||||||
+A-NewYork-222   1347 GTGGCGTTGATAGTGATACTGCAAACTGGTCTTGGCCAGACGGTGCTGAG   1396
+
+EMBOSS_001      1387 TTGCCATTCAGCATTGACAAGTAG--------------------------   1410
+                     |||||.||||.|||||||||||||                          
+A-NewYork-222   1397 TTGCCGTTCACCATTGACAAGTAGTTCGTTGAAAAAAACTCCTTGTTTCT   1446
+
+EMBOSS_001      1410 ---   1410
+                        
+A-NewYork-222   1447 ACT   1449
+
+
+#---------------------------------------
+#---------------------------------------
