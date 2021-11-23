@@ -1,18 +1,16 @@
 """Generates visualization file for inputted segment.
 
-This file contains multiple histograms corresponding to different
-mutation types across difference strains.
+This file contains multiple heatmaps corresponding to different
+mutation types across different strains.
 """
 
 import json
+from math import floor
 
 from Bio import AlignIO
 import matplotlib.pyplot as plt
-
-PANDEMIC_STRAINS = {
-    "A-USSR-92-1977",
-    "A-California-07-2009"
-}
+import matplotlib.patheffects as path_effects
+import numpy as np
 
 with open("reference-segment-lengths.json") as fp:
     REF_SEGMENT_LENGTHS = json.load(fp)
@@ -20,32 +18,67 @@ with open("reference-segment-lengths.json") as fp:
 SEGMENT = snakemake.wildcards.segment
 SEGMENT_LENGTH = REF_SEGMENT_LENGTHS[SEGMENT]
 
-# matplotlib histogram bins. See https://bit.ly/3DriXDl for details.
-BINS = range(1, SEGMENT_LENGTH + 101, 100)
+# We will bin mutations by nt pos along x axis
+BIN_EDGES = range(1, SEGMENT_LENGTH + 101, 100)
+BIN_LABELS = ["%s - %s" % (e, e+100) for e in BIN_EDGES[:-1]]
 
 # All inputted pairwise alignment output files
 NEEDLE_FILES = [open(e) for e in snakemake.input]
 # AlignIO objects corresponding to alignment files
 ALIGNMENTS = [AlignIO.read(e, "emboss") for e in NEEDLE_FILES]
+# Alternate strains from each alignment
+STRAINS = [e[1].id for e in ALIGNMENTS]
+
+PANDEMIC_STRAINS = {
+    "A-USSR-92-1977",
+    "A-California-07-2009"
+}
+# Indexes in STRAINS corresponding to pandemic strains
+PANDEMIC_INDICES = [i for i, e in enumerate(STRAINS) if e in PANDEMIC_STRAINS]
 
 fig, axs = plt.subplots(
-    # One row for each strain; which corresponds to the number of
-    # alignments.
-    len(ALIGNMENTS),
-    # One col for each mutation types
+    # One row for each mutation type
     3,
-    # Consistent y axis scale in each col
-    sharey="col",
-    # Fig size correlates with the number of bins, which correlates
-    # with inputted segment length, and number of alignments.
-    figsize=(len(BINS) * 0.5, len(ALIGNMENTS) * 3)
+    # Only one heatmap per row
+    1,
+    # Fig size correlates with the number of bins and strains. The
+    # latter correlates with number of alignments.
+    figsize=(len(BIN_EDGES) * 0.5, len(ALIGNMENTS))
 )
-
-# https://stackoverflow.com/a/45161551/11472358
-fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
 
 # Title at top of visualization file
 fig.suptitle("Segment %s" % SEGMENT)
+
+# https://stackoverflow.com/a/45161551/11472358
+fig.tight_layout(h_pad=8, rect=[0.06, 0.06, 1, 0.95])
+
+# Iterate over subplots to implement stylistic changes prior to
+# generating heatmap data.
+for i in range(3):
+    axs[i].set_xticks(np.arange(len(BIN_LABELS)))
+    axs[i].set_yticks(np.arange(len(ALIGNMENTS)))
+    axs[i].set_xticklabels(BIN_LABELS, rotation=270)
+    axs[i].set_yticklabels(STRAINS)
+
+    # Color pandemic tick labels red
+    for j in PANDEMIC_INDICES:
+        axs[i].get_yticklabels()[j].set_color("red")
+
+    if i == 0:
+        axs[i].set_title("SNPs")
+    elif i == 1:
+        axs[i].set_title("Insertions")
+    elif i == 2:
+        axs[i].set_title("Deletions")
+
+# Matrices that will count the number of mutations in each bin relative
+# to reference genome position.
+snp_matrix = \
+    np.zeros(shape=(len(ALIGNMENTS), len(BIN_LABELS)), dtype=int)
+insertion_matrix = \
+    np.zeros(shape=(len(ALIGNMENTS), len(BIN_LABELS)), dtype=int)
+deletion_matrix = \
+    np.zeros(shape=(len(ALIGNMENTS), len(BIN_LABELS)), dtype=int)
 
 for i, alignment in enumerate(ALIGNMENTS):
     # The alignment is ultimately derived from a reference and
@@ -67,50 +100,39 @@ for i, alignment in enumerate(ALIGNMENTS):
             end_index = j
             break
 
-    # Lists of reference genome positions where mutations occur in the
-    # alternate genome.
-    snps = []
-    insertions = []
-    deletions = []
     # Insertions in alternate genome lead to frame shift
     frame_shift = 0
 
     for j in range(start_index, end_index+1):
-        ref_index = j - frame_shift
+        # Index relative to reference genome position
+        ref_index = j - start_index - frame_shift
+        ref_index_bin = int(floor(ref_index/100))
+
         if ref_seq[j] == "-":
-            insertions.append(ref_index)
+            insertion_matrix[i, ref_index_bin] += 1
             frame_shift += 1
         elif alt_seq[j] == "-":
-            deletions.append(ref_index)
+            deletion_matrix[i, ref_index_bin] += 1
         elif ref_seq[j] != alt_seq[j]:
-            snps.append(ref_index)
+            snp_matrix[i, ref_index_bin] += 1
+        j += 1
 
-    # Histogram for each type of mutation, in row corresponding to this
-    # alignment.
-    axs[i, 0].hist(snps, bins=BINS, rwidth=0.7, color="black")
-    axs[i, 1].hist(insertions, bins=BINS, rwidth=0.7, color="#4daf4a")
-    axs[i, 2].hist(deletions, bins=BINS, rwidth=0.7, color="#e41a1c")
+# Label heatmap cells with the actual number of mutations
+matrices = [snp_matrix, insertion_matrix, deletion_matrix]
+for i, matrix in enumerate(matrices):
+    for j, x in enumerate(matrix):
+        for k, y in enumerate(x):
+            axs[i].text(k, j, matrix[j, k],
+                        ha="center", va="center", color="w",
+                        path_effects=[
+                            path_effects.Stroke(linewidth=1,
+                                                foreground='black'),
+                            path_effects.Normal()
+                        ])
 
-    # Put a label on the left of this row indicating which alternate
-    # strain was used.
-    alt_id = alignment[1].id
-    plt.setp(axs[i, 0], ylabel=alt_id)
-
-    # Color background if it is a pandemic strain
-    if alt_id in PANDEMIC_STRAINS:
-        axs[i, 0].set_facecolor("#fee8c8")
-        axs[i, 1].set_facecolor("#fee8c8")
-        axs[i, 2].set_facecolor("#fee8c8")
-
-# Set titles at the top of each column to indicate what mutations are
-# visualized.
-axs[0, 0].set_title("SNPs")
-axs[0, 1].set_title("Insertions")
-axs[0, 2].set_title("Deletions")
-
-# No histogram should have negative values. If we do not set this, and
-# there are no mutations in a column, the histogram y-axis will center
-# at 0 with negative values below it.
-plt.setp(axs, ylim=0)
+# Specify custom color schemes
+axs[0].imshow(snp_matrix, cmap=plt.get_cmap("Blues"))
+axs[1].imshow(insertion_matrix, cmap=plt.get_cmap("Greens"))
+axs[2].imshow(deletion_matrix, cmap=plt.get_cmap("Reds"))
 
 plt.savefig(snakemake.output[0])
