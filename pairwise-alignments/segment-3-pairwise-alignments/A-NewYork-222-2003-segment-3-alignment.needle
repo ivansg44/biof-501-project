@@ -1,6 +1,6 @@
 ########################################
 # Program: needle
-# Rundate: Mon 22 Nov 2021 16:49:53
+# Rundate: Tue 23 Nov 2021 16:12:00
 # Commandline: needle
 #    [-asequence] reference/segment-3-reference/segment-3-reference.fasta
 #    [-bsequence] samples/segment-3-samples/A-NewYork-222-2003-segment-3.fasta
