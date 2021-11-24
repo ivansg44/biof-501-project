@@ -6,13 +6,14 @@ mutation types across different strains.
 
 import json
 from math import floor
+from os import path
 
 from Bio import AlignIO
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 import numpy as np
 
-with open("reference-segment-lengths.json") as fp:
+with open(path.join("assets", "reference-segment-lengths.json")) as fp:
     REF_SEGMENT_LENGTHS = json.load(fp)
 
 SEGMENT = snakemake.wildcards.segment
@@ -29,10 +30,8 @@ ALIGNMENTS = [AlignIO.read(e, "emboss") for e in NEEDLE_FILES]
 # Alternate strains from each alignment
 STRAINS = [e[1].id for e in ALIGNMENTS]
 
-PANDEMIC_STRAINS = {
-    "A-USSR-92-1977",
-    "A-California-07-2009"
-}
+with open(path.join("assets", "pandemic-strains.json")) as fp:
+    PANDEMIC_STRAINS = json.load(fp)
 # Indexes in STRAINS corresponding to pandemic strains
 PANDEMIC_INDICES = [i for i, e in enumerate(STRAINS) if e in PANDEMIC_STRAINS]
 
