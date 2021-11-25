@@ -31,9 +31,21 @@ Spanish flu genome as the reference strain.
 The sample strains this pipeline compares with the reference Spanish flu genome
 are:
 
-| `{Virus type}/{Location}/{Strain number}/{Year isolated}` | Pandemic strain? |
+| `{Influenza type}/{Location}/{Strain number}/{Year isolated}` | Pandemic strain? |
 | --------------------------------------------------------- | ---------------- |
-| * ... (SPECIFY PANDEMIC STRAINS)                          | ...              |
+| A-PuertoRico-8-1934 | No |
+| A-FortMonmouth-1-1947 | No |
+| A-Albany-4836-1950 | No |
+| A-NewJersey-1976 | No |
+| A-USSR-92-1977 | **Yes** |
+| A-India-6263-1980 | No |
+| A-Taiwan-1-1986 | No |
+| A-Texas-36-91 | No |
+| A-Beijing-262-1995 | No |
+| A-NewYork-222-2003 | No |
+| A-California-07-2009| **Yes** |
+| A-Alabama-13-2015 | No |
+| A-Alabama-01-2020 | No |
 
 The genome of H1N1 viruses consists of eight RNA molecules, called segments. We
 compare the sample H1N1 genomes to the reference Spanish flu genome on a
