@@ -235,4 +235,4 @@ Snakemake.**
 
 # License
 
-TODO
+[MIT](LICENSE)
