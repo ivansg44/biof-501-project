@@ -42,14 +42,14 @@ fig, axs = plt.subplots(
     1,
     # Fig size correlates with the number of bins and strains. The
     # latter correlates with number of alignments.
-    figsize=(len(BIN_EDGES) * 0.5, len(ALIGNMENTS))
+    figsize=(len(BIN_EDGES) * 0.5 + 3, len(ALIGNMENTS) + 5)
 )
 
 # Title at top of visualization file
 fig.suptitle("Segment %s" % SEGMENT)
 
 # https://stackoverflow.com/a/45161551/11472358
-fig.tight_layout(h_pad=8, rect=[0.06, 0.06, 1, 0.95])
+fig.tight_layout(h_pad=8, rect=[0.1, 0.1, 0.9, 0.9])
 
 # Iterate over subplots to implement stylistic changes prior to
 # generating heatmap data.

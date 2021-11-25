@@ -10,3 +10,4 @@ dependencies:
   - emboss =6.6.0
   - biopython =1.79
   - matplotlib-base =3.4.3
+  - graphviz =2.49.3
