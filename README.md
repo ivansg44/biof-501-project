@@ -65,7 +65,10 @@ FIGURE
 
 There is only one available genomic sequence per unique reference and
 sample segment (i.e., _n_ = 1 in each comparison). Many of the strains in
-this pipeline only had one complete genomic sequence available.
+this pipeline only had one complete genomic sequence available. I retrieved the
+strains from [fludb.org][fludb].
+
+[fludb]: https://www.fludb.org/brc/home.spg?decorator=influenza
 
 ### What happens after all comparisons are completed?
 
