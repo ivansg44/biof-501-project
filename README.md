@@ -155,13 +155,13 @@ required by the conda environment are listed in the
 
 [env]: environment.yaml
 
-| Dependency | Function |
-| ---------- |--------- |
-| snakemake-minimal | Lightweight snakemake installation. Used to run pipeline |
-| python | Required by snakemake, and used to run several scripts. We specify a specific version because the functionality of certain Python operations has changed slightly over the years. |
-| emboss | Provides the needle package used to run the [Needleman-Wunsch algorithm][needle] for pairwise alignments. |
-| biopython | Provides AlignIO and SeqIO packages that are used to parse outputted alignment files and fasta sequence files respectively. |
-| matplotlib-base | Used to generate visualizations. |
+| Dependency | Version | Function |
+| ---------- | ------- | -------- |
+| snakemake-minimal | 6.10.0 | Lightweight snakemake installation. Used to run pipeline |
+| python | 3.10.0 | Required by snakemake, and used to run several scripts. We specify a specific version because the functionality of certain Python operations has changed slightly over the years. |
+| emboss | 6.6.0 | Provides the needle package used to run the [Needleman-Wunsch algorithm][needle] for pairwise alignments. |
+| biopython | 1.79 | Provides AlignIO and SeqIO packages that are used to parse outputted alignment files and fasta sequence files respectively. |
+| matplotlib-base | 3.4.3 | Used to generate visualizations. |
 
 [needle]: https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm
 
