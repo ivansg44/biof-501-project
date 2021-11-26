@@ -74,7 +74,7 @@ snippet from an alignment file, demonstrating how the file is parsed.
 
 ![Pairwise alignment example][pairwise-align]
 
-[pairwise-align]: assets/images/pairwise-alignment.svg
+[pairwise-align]: assets/images/pairwise-alignment.png
 
 #### Note on sample size:
 
