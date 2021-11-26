@@ -60,11 +60,21 @@ this results in 8 * 13 = 104 comparisons.
 ### What happens during a comparison?
 
 The fasta files for the complete reference and sample segments undergo a
-pairwise alignment. Then, we iterate over the aligned segment genomes to mark
-the nucleotide position (relative to the reference genome) where a mutation in 
-the sample genome has occurred.
+pairwise alignment using the [Needleman-Wunsch algorithm][needle], which outputs
+alignment files in the [`pairwise-alignments/`][pairwise-aligns] directory.
 
-FIGURE
+[pairwise-aligns]: pairwise-alignments/
+
+Then, we iterate over the alignments using the [`viz_alignment.py`][viz-align]
+script to mark the nucleotide position (relative to the reference genome) where
+a mutation in the sample genome has occurred. Refer to Fig. 2. for an annotated
+snippet from an alignment file, demonstrating how the file is parsed.
+
+[viz-align]: viz_alignment.py
+
+![Pairwise alignment example][pairwise-align]
+
+[pairwise-align]: assets/images/pairwise-alignment.svg
 
 #### Note on sample size:
 
@@ -77,12 +87,11 @@ strains from [fludb.org][fludb].
 
 ### What happens after all comparisons are completed?
 
-Three heatmaps are generated for each segment, encoding the amount of SNP,
-insertion, and deletion mutations per 100 nucleotide positions along the length
-of the segment, found in each sample strain. The pandemic strain labels are
-colored red for clarity.
-
-FIGURE
+After counting the mutations from the pairwise alignment outputs, the
+[`viz_alignment.py`][viz-align] scripts proceeds to generate three heatmaps for
+each segment, encoding the amount of SNP, insertion, and deletion mutations per
+100 nucleotide positions along the length of the segment, found in each sample
+strain. The pandemic strain labels are colored red for clarity.
 
 [`assets/reference-segment-lengths.json`][ref-segments-len] is used when binning
 the mutations per 100 nucleotide positions. This file can be automatically
@@ -113,8 +122,8 @@ strains were nearly identical prior to the last 480 nucleotides.
 ## Sample genome data
 
 The individual non-reference sample segment fasta files can be found nested in
-the [`samples/`][samples] directory. Full accession details can be found in the header
-of each fasta file, including genbank accession number.
+the [`samples/`][samples] directory. Full accession details can be found in the
+header of each fasta file, including genbank accession number.
 
 Sample fasta files must be placed in the appropriate nested segment director,
 and observe the following naming scheme:
