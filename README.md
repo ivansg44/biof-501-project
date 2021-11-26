@@ -33,19 +33,19 @@ are:
 
 | `{Influenza type}/{Location}/{Strain number}/{Year isolated}` | Pandemic strain? |
 | --------------------------------------------------------- | ---------------- |
-| A-PuertoRico-8-1934 | No |
-| A-FortMonmouth-1-1947 | No |
-| A-Albany-4836-1950 | No |
-| A-NewJersey-1976 | No |
-| A-USSR-92-1977 | **Yes** |
-| A-India-6263-1980 | No |
-| A-Taiwan-1-1986 | No |
-| A-Texas-36-91 | No |
-| A-Beijing-262-1995 | No |
-| A-NewYork-222-2003 | No |
-| A-California-07-2009| **Yes** |
-| A-Alabama-13-2015 | No |
-| A-Alabama-01-2020 | No |
+| A/PuertoRico/8/1934 | No |
+| A/FortMonmouth/1/1947 | No |
+| A/Albany/4836/1950 | No |
+| A/NewJersey/1976 | No |
+| A/USSR/92/1977 | **Yes** |
+| A/India/6263/1980 | No |
+| A/Taiwan/1/1986 | No |
+| A/Texas/36/91 | No |
+| A/Beijing/262/1995 | No |
+| A/NewYork/222/2003 | No |
+| A/California/07/2009| **Yes** |
+| A/Alabama/13/2015 | No |
+| A/Alabama/01/2020 | No |
 
 The genome of H1N1 viruses consists of eight RNA molecules, called segments. We
 compare the sample H1N1 genomes to the reference Spanish flu genome on a
@@ -87,7 +87,8 @@ FIGURE
 ## Reference genome data
 
 The Spanish flu reference genome segment fasta files can be found nested in the
-[`reference/`][ref] directory.
+[`reference/`][ref] directory. Full accession details can be found in the header
+of each fasta file, including genbank accession number.
 
 [ref]: reference/
 
@@ -104,8 +105,11 @@ strains were nearly identical prior to the last 480 nucleotides.
 ## Sample genome data
 
 The individual non-reference sample segment fasta files can be found nested in
-the [`samples/`][samples] directory. Sample fasta files must be placed in the
-appropriate nested segment director, and observe the following naming scheme:
+the [`samples/`][samples] directory. Full accession details can be found in the header
+of each fasta file, including genbank accession number.
+
+Sample fasta files must be placed in the appropriate nested segment director,
+and observe the following naming scheme:
 
 [samples]: samples/
 
