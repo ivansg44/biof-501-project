@@ -47,10 +47,11 @@ are:
 | A/Alabama/13/2015 | No |
 | A/Alabama/01/2020 | No |
 
-The genome of H1N1 viruses consists of eight RNA molecules, called segments. We
-compare the sample H1N1 genomes to the reference Spanish flu genome on a
-segment-by-segment basis--resulting in eight comparisons per sample strain. As
-there are 13 such strains, this results in 8 * 13 = 104 comparisons.
+The genome of H1N1 viruses consists of eight RNA molecules, called segments. As
+shown in Fig. 1, we compare the sample H1N1 genomes to the reference Spanish flu
+genome on a segment-by-segment basis to identify sample genome mutations--
+resulting in eight comparisons per sample strain. As there are 13 such strains,
+this results in 8 * 13 = 104 comparisons.
 
 ![Overview of comparisons][comparisons-svg]
 
