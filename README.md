@@ -52,6 +52,12 @@ compare the sample H1N1 genomes to the reference Spanish flu genome on a
 segment-by-segment basis--resulting in eight comparisons per sample strain. As
 there are 13 such strains, this results in 8 * 13 = 104 comparisons.
 
+![Overview of comparisons][comparisons-svg]
+![Overview of comparisons][comparisons-png]
+
+[comparisons-svg]: assets/images/comparisons.svg
+[comparisons-png]: assets/images/comparisons.png
+
 ### What happens during a comparison?
 
 The fasta files for the complete reference and sample segments undergo a
