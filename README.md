@@ -10,11 +10,11 @@ but only two are commonly referred to as global pandemics:
 [2009_swine_flu]: https://en.wikipedia.org/wiki/2009_swine_flu_pandemic
 
 The objective of this pipeline is to provide a visual summary of mutations
-across various H1N1 genomes, to determine if we can visually observe a unique
-pattern of mutations that distinguishes the Russian and swine flu genomes from
-non-pandemic H1N1 genomes. If such a pattern is easily identifiable upon visual
-inspection, we could use this pipeline to assess the pandemic potential of
-future H1N1 outbreaks.
+across various H1N1 genomes. We hypothesize that through such a summary, we will
+be able visually observe a unique pattern of mutations that distinguishes the
+Russian and swine flu genomes from non-pandemic H1N1 genomes. If such a pattern
+is easily identifiable upon visual inspection, we could use this pipeline to
+assess the pandemic potential of future H1N1 outbreaks.
 
 ## How it works
 
@@ -170,7 +170,24 @@ segment has a pdf file with a SNP, insertion, and deletion mutation heatmap.
 
 [viz]: visualizations/
 
-TODO patterns identified?
+It is difficult to visually observe any noticeable mutation-count trends that
+distinguish the two pandemic sample strains from the non-pandemic sample
+strains, in any segment. The number of mutations does seem to have increased
+over time, with the highest number of mutations found in the most recent
+strains, but this increase seems to occur at relatively constant rate across
+pandemic and non-pandemic strains. Thus, the pipeline results do not immediately
+support our hypothesis that a visual summary of mutations will enable us to
+observe a trend unique to pandemic strains.
+
+However, it may be beneficial to continue modifying the pipeline for further
+testing of our hypothesis. Heatmaps have the potential encode thousands of data
+points, while still allowing users to easily detect patterns. We could
+potentially increase the granularity of the heatmap, and stop binning the
+results per every 100 nucleotides. We could also include many more strains--one
+from every year since 1918, or perhaps multiple strains per year.
+[`viz_alignment.py`][viz-align] would need to be adjusted slightly, and we would
+need to download more sample data. We may also need to use a more powerful
+machine to generate our results in a timely manner.
 
 # Installation
 
