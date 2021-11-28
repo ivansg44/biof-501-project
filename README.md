@@ -272,20 +272,13 @@ Then, you can simply run:
 `$ snakemake --cores`
 
 And that's it. This command will use all your computer cores to run the
-pipeline, if necessary. However, since the repo you cloned already contains all
-the generated output files, the pipeline will probably not run (because there is
-nothing to do). In that case, you can run:
-
-`$ snakemake --cores -F` __*__
-
-This will rebuild all the generated output files.
+pipeline, if necessary.
 
 ***Warning: there are 104 pairwise alignments. This pipeline takes ~50 mins to
 run on my machine, which has 4 cores. For the sake of time, you can remove
 samples from [`assets/samples.json`][samples-json], so you only run the pipeline
-on a subset of samples. Keep in mind that decreasing the number of samples will
-not increase performance at a linear rate, due to the parallel nature of
-Snakemake.**
+on a subset of samples. If you need to cancel an already running workflow, hit
+Ctrl+C.**
 
 # Author
 
